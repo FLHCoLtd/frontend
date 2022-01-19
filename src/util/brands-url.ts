@@ -6,7 +6,11 @@ export interface BrandsOptions {
 }
 
 export const brandsUrl = (options: BrandsOptions): string => {
-  if (options.domain === "ferqo_cc" || options.domain === "line_notify") {
+  if (
+    options.domain === "ferqo_cc" ||
+    options.domain === "line_notify" ||
+    options.domain === "fibaro_home_center"
+  ) {
     return `http://homex.local:8123/local/icon/${options.domain}/${
       options.darkOptimized ? "dark_" : ""
     }${options.type}.png`;
