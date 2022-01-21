@@ -9,7 +9,8 @@ export const brandsUrl = (options: BrandsOptions): string => {
   if (
     options.domain === "ferqo_cc" ||
     options.domain === "line_notify" ||
-    options.domain === "fibaro_home_center"
+    options.domain === "fibaro_home_center" ||
+    options.domain === "line_notify" 
   ) {
     return `http://homex.local:8123/local/icon/${options.domain}/${
       options.darkOptimized ? "dark_" : ""
