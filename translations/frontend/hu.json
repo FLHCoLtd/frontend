@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Bejelentkezés megszakítva",
-                "authorizing_client": "Éppen a {clientId} számára készülsz hozzáférést biztosítani a Home Assistant példányodhoz.",
+                "authorizing_client": "Éppen a {clientId} számára készülsz hozzáférést biztosítani a FLH HomeX példányodhoz.",
                 "form": {
                     "error": "Hiba: {error}",
                     "next": "Tovább",

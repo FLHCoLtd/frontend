@@ -1216,7 +1216,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Prijava je prekinuta",
-                "authorizing_client": "Dati ćete {clientId} pristup svojoj instanci pomoćnika Home Assistant.",
+                "authorizing_client": "Dati ćete {clientId} pristup svojoj instanci pomoćnika FLH HomeX.",
                 "form": {
                     "providers": {
                         "command_line": {

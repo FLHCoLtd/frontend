@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Inicio de sesión cancelado",
-                "authorizing_client": "Está por dar acceso a {clientId} a su instancia de Home Assistant.",
+                "authorizing_client": "Está por dar acceso a {clientId} a su instancia de FLH HomeX.",
                 "form": {
                     "error": "Error: {error}",
                     "next": "Siguiente",

@@ -2862,7 +2862,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Login cancelado",
-                "authorizing_client": "Você está prestes a dar acesso pra {clientId} à sua instância do Home Assistant.",
+                "authorizing_client": "Você está prestes a dar acesso pra {clientId} à sua instância do FLH HomeX.",
                 "form": {
                     "error": "Erro: {error}",
                     "next": "Próximo",

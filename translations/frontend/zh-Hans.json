@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "登录中断",
-                "authorizing_client": "您即将授权 {clientId} 访问 Home Assistant 实例。",
+                "authorizing_client": "您即将授权 {clientId} 访问 FLH HomeX 实例。",
                 "form": {
                     "error": "错误：{error}",
                     "next": "下一步",

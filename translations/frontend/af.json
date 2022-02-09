@@ -1340,7 +1340,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Aanmelding gestaak",
-                "authorizing_client": "U is op die punt om {clientId} toegang te gee tot u Home Assistant instansie.",
+                "authorizing_client": "U is op die punt om {clientId} toegang te gee tot u FLH HomeX instansie.",
                 "form": {
                     "providers": {
                         "command_line": {

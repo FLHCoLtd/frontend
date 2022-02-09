@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Logowanie przerwane",
-                "authorizing_client": "Uzyskujesz dostęp do instancji Home Assistanta w lokalizacji {clientId}.",
+                "authorizing_client": "Uzyskujesz dostęp do instancji FLH HomeXa w lokalizacji {clientId}.",
                 "form": {
                     "error": "Błąd: {error}",
                     "next": "Dalej",

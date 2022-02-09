@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Sisselogimine katkestatud",
-                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma Home Assistant serverile.",
+                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma FLH HomeX serverile.",
                 "form": {
                     "error": "Tõrge: {error}",
                     "next": "Edasi",

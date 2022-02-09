@@ -3765,7 +3765,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Přihlášení bylo zrušeno",
-                "authorizing_client": "Chystáte se dát {clientId} práva pro instanci Home Assistant.",
+                "authorizing_client": "Chystáte se dát {clientId} práva pro instanci FLH HomeX.",
                 "form": {
                     "error": "Chyba: {error}",
                     "next": "Další",

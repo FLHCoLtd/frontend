@@ -2042,7 +2042,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Đã hủy đăng nhập",
-                "authorizing_client": "Bạn sắp cấp quyền cho {clientId} truy cập vào Home Assistant của bạn.",
+                "authorizing_client": "Bạn sắp cấp quyền cho {clientId} truy cập vào FLH HomeX của bạn.",
                 "form": {
                     "error": "Lỗi: {error}",
                     "next": "Kế tiếp",

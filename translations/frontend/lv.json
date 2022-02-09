@@ -1690,7 +1690,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Pieteikšanās pārtraukta",
-                "authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu Home Assistant.",
+                "authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu FLH HomeX.",
                 "form": {
                     "error": "Kļūda: {error}",
                     "next": "Tālāk",

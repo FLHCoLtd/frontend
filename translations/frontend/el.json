@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Σύνδεση ματαιώθηκε",
-                "authorizing_client": "Πρόκειται να δώσετε στο {clientId} πρόσβαση στο Home Assistant.",
+                "authorizing_client": "Πρόκειται να δώσετε στο {clientId} πρόσβαση στο FLH HomeX.",
                 "form": {
                     "error": "Σφάλμα: {error}",
                     "next": "Επόμενο",

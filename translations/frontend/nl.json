@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Inloggen afgebroken",
-                "authorizing_client": "Je staat op het punt {clientId} toegang te geven tot je Home Assistant-instantie.",
+                "authorizing_client": "Je staat op het punt {clientId} toegang te geven tot je FLH HomeX-instantie.",
                 "form": {
                     "error": "Fout: {error}",
                     "next": "Volgende",

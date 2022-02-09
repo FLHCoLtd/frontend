@@ -3187,7 +3187,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Prihlásenie bolo zrušené",
-                "authorizing_client": "Chystáte sa poskytnúť {clientId} prístup k vašej inštancii Home Assistantu.",
+                "authorizing_client": "Chystáte sa poskytnúť {clientId} prístup k vašej inštancii FLH HomeXu.",
                 "form": {
                     "next": "Ďalej",
                     "providers": {

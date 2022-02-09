@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Innlogging avbrutt",
-                "authorizing_client": "Du er i ferd med å gi {clientId} tilgang til din Home Assistant",
+                "authorizing_client": "Du er i ferd med å gi {clientId} tilgang til din FLH HomeX",
                 "form": {
                     "error": "Feil: {error}",
                     "next": "Neste",

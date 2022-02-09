@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "登入中止",
-                "authorizing_client": "即將授與 {clientId} 訪問 Home Assistant 系統權限。",
+                "authorizing_client": "即將授與 {clientId} 訪問 FLH HomeX 系統權限。",
                 "form": {
                     "error": "錯誤：{error}",
                     "next": "下一步",

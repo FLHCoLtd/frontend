@@ -3791,7 +3791,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Login aborted",
-                "authorizing_client": "You're about to give {clientId} access to your Home Assistant instance.",
+                "authorizing_client": "You're about to give {clientId} access to your FLH HomeX instance.",
                 "form": {
                     "error": "Error: {error}",
                     "next": "Next",

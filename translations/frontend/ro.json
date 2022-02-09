@@ -2981,7 +2981,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Conectarea a fost anulată",
-                "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de Home Assistant",
+                "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de FLH HomeX",
                 "form": {
                     "error": "Eroare: {error}",
                     "next": "Următorul",

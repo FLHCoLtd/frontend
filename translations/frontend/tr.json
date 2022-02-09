@@ -3504,7 +3504,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Giriş iptal edildi",
-                "authorizing_client": "{clientId}'ye Home Assistant erişim izni vermek üzeresiniz.",
+                "authorizing_client": "{clientId}'ye FLH HomeX erişim izni vermek üzeresiniz.",
                 "form": {
                     "error": "Hata: {error}",
                     "next": "Sonraki",

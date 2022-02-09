@@ -3574,7 +3574,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Kirjautuminen on keskeytetty",
-                "authorizing_client": "Olet antamassa pääsyn {clientId} Home Assistant -ympäristöösi.",
+                "authorizing_client": "Olet antamassa pääsyn {clientId} FLH HomeX -ympäristöösi.",
                 "form": {
                     "error": "Virhe: {error}",
                     "next": "Seuraava",

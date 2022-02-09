@@ -3776,7 +3776,7 @@
             },
             "page-authorize": {
                 "abort_intro": "로그인이 중단되었습니다",
-                "authorizing_client": "{clientId}에 Home Assistant 구성요소에 대한 접근 권한을 부여하려고 합니다.",
+                "authorizing_client": "{clientId}에 FLH HomeX 구성요소에 대한 접근 권한을 부여하려고 합니다.",
                 "form": {
                     "error": "오류: {error}",
                     "next": "다음",

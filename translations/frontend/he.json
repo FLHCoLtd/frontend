@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "הכניסה בוטלה",
-                "authorizing_client": "אתה עומד לתת גישה ל{clientId} עבור הHome Assistant שלך.",
+                "authorizing_client": "אתה עומד לתת גישה ל{clientId} עבור הFLH HomeX שלך.",
                 "form": {
                     "error": "שגיאה: {error}",
                     "next": "הבא",

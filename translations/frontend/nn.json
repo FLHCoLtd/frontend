@@ -1392,7 +1392,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Innlogging avbrote",
-                "authorizing_client": "Du held på å gi {clientId} tilgang til Home Assistant-instansen din.",
+                "authorizing_client": "Du held på å gi {clientId} tilgang til FLH HomeX-instansen din.",
                 "form": {
                     "error": "Feil: {error}",
                     "next": "Neste",

@@ -3264,7 +3264,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Login ofgebrach",
-                "authorizing_client": "Dir gitt elo {clientId} Zougang zu ärem Home Assistant.",
+                "authorizing_client": "Dir gitt elo {clientId} Zougang zu ärem FLH HomeX.",
                 "form": {
                     "error": "Feeler: {error}",
                     "next": "Nächst",

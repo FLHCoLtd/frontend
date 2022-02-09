@@ -3193,7 +3193,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Входът е прекратен",
-                "authorizing_client": "На път сте да дадете {clientId} достъп до вашия Home Assistant.",
+                "authorizing_client": "На път сте да дадете {clientId} достъп до вашия FLH HomeX.",
                 "form": {
                     "error": "Грешка: {error}",
                     "next": "Следващ",

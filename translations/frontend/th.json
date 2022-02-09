@@ -964,7 +964,7 @@
             },
             "page-authorize": {
                 "abort_intro": "เข้าสู่ระบบถูกยกเลิก",
-                "authorizing_client": "คุณกำลังจะให้ {clientId} เข้าถึงเซิร์ฟเวอร์ Home Assistant ของคุณ",
+                "authorizing_client": "คุณกำลังจะให้ {clientId} เข้าถึงเซิร์ฟเวอร์ FLH HomeX ของคุณ",
                 "form": {
                     "providers": {
                         "command_line": {

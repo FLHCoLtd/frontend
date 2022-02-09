@@ -3779,7 +3779,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Connexion interrompue",
-                "authorizing_client": "Vous êtes sur le point de donner accès à {clientId} à votre instance de Home Assistant.",
+                "authorizing_client": "Vous êtes sur le point de donner accès à {clientId} à votre instance de FLH HomeX.",
                 "form": {
                     "error": "Erreur: {error}",
                     "next": "Suivant",

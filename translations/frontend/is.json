@@ -2054,7 +2054,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Hætt var við innskráningu",
-                "authorizing_client": "Þú ert að fara að veita {clientId} aðgang að Home Assistant uppsetningunni.",
+                "authorizing_client": "Þú ert að fara að veita {clientId} aðgang að FLH HomeX uppsetningunni.",
                 "form": {
                     "error": "Villa: {error}",
                     "next": "Næsta",

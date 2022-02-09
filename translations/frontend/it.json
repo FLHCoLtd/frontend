@@ -3779,7 +3779,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Login interrotto",
-                "authorizing_client": "Stai per dare a {clientId} accesso alla tua istanza di Home Assistant.",
+                "authorizing_client": "Stai per dare a {clientId} accesso alla tua istanza di FLH HomeX.",
                 "form": {
                     "error": "Errore: {error}",
                     "next": "Avanti",

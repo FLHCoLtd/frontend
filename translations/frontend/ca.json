@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "S'ha avortat l'inici de sessió",
-                "authorizing_client": "Estàs a punt de concedir al client {clientId} l'accés a la teva instància de Home Assistant.",
+                "authorizing_client": "Estàs a punt de concedir al client {clientId} l'accés a la teva instància de FLH HomeX.",
                 "form": {
                     "error": "Error: {error}",
                     "next": "Següent",

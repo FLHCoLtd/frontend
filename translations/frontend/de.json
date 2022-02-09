@@ -3780,7 +3780,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Anmeldung abgebrochen",
-                "authorizing_client": "Du bist dabei, {clientId} Zugriff auf deine Home Assistant Instanz zu gewähren.",
+                "authorizing_client": "Du bist dabei, {clientId} Zugriff auf deine FLH HomeX Instanz zu gewähren.",
                 "form": {
                     "error": "Fehler: {error}",
                     "next": "Weiter",

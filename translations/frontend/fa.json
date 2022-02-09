@@ -1824,7 +1824,7 @@
             },
             "page-authorize": {
                 "abort_intro": "ورود به سیستم لغو شد",
-                "authorizing_client": "شما در حال دادن دسترسی به {clientId} به Home Assistant هستید.",
+                "authorizing_client": "شما در حال دادن دسترسی به {clientId} به FLH HomeX هستید.",
                 "form": {
                     "providers": {
                         "command_line": {

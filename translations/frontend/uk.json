@@ -2904,7 +2904,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Логін скасовано",
-                "authorizing_client": "Ви збираєтеся надати {clientId} доступ до Home Assistant.",
+                "authorizing_client": "Ви збираєтеся надати {clientId} доступ до FLH HomeX.",
                 "form": {
                     "error": "Помилка: {error}",
                     "next": "Вперед",

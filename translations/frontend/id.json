@@ -3625,7 +3625,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Proses masuk dibatalkan",
-                "authorizing_client": "Anda akan memberi akses {clientId} ke instans Home Assistant Anda.",
+                "authorizing_client": "Anda akan memberi akses {clientId} ke instans FLH HomeX Anda.",
                 "form": {
                     "error": "Kesalahan: {error}",
                     "next": "Berikutnya",

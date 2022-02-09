@@ -412,7 +412,7 @@
                 }
             },
             "page-authorize": {
-                "authorizing_client": "আপনি আপনার Home Assistant দৃষ্টান্তে {clientId} অ্যাক্সেস দিতে যাচ্ছেন।"
+                "authorizing_client": "আপনি আপনার FLH HomeX দৃষ্টান্তে {clientId} অ্যাক্সেস দিতে যাচ্ছেন।"
             },
             "page-onboarding": {
                 "core-config": {

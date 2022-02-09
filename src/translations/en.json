@@ -3530,7 +3530,7 @@
       },
       "page-authorize": {
         "initializing": "Initializing",
-        "authorizing_client": "You're about to give {clientId} access to your Home Assistant instance.",
+        "authorizing_client": "You're about to give {clientId} access to your FLH HomeX instance.",
         "logging_in_with": "Logging in with **{authProviderName}**.",
         "pick_auth_provider": "Or log in with",
         "abort_intro": "Login aborted",

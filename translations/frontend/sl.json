@@ -3114,7 +3114,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Prijava prekinjena",
-                "authorizing_client": "Dali boste {clientId} dostop do vašega Home Assistanta.",
+                "authorizing_client": "Dali boste {clientId} dostop do vašega FLH HomeXa.",
                 "form": {
                     "error": "Napaka: {error}",
                     "next": "Naslednji",

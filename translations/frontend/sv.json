@@ -3408,7 +3408,7 @@
             },
             "page-authorize": {
                 "abort_intro": "Inloggning avbruten",
-                "authorizing_client": "Du håller på att ge {clientId} behörighet till din Home Assistant.",
+                "authorizing_client": "Du håller på att ge {clientId} behörighet till din FLH HomeX.",
                 "form": {
                     "error": "Fel: {error}",
                     "next": "Nästa",

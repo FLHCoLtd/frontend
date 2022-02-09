@@ -3773,7 +3773,7 @@
             },
             "page-authorize": {
                 "abort_intro": "ログインが中止されました",
-                "authorizing_client": "{clientId} Home Assistantインスタンスへのアクセスを許可しようとしています。",
+                "authorizing_client": "{clientId} FLH HomeX インスタンスへのアクセスを許可しようとしています。",
                 "form": {
                     "error": "エラー： {error}",
                     "next": "次",
