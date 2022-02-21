@@ -233,7 +233,7 @@
                                     "label": "Event"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "FLH HomeX",
                                     "shutdown": "Abefahre",
                                     "start": "Starte"
                                 },

@@ -338,7 +338,7 @@
                         "create_area": "สร้างห้องใหม่",
                         "header": "ค่าของห้อง",
                         "integrations_page": "หน้าตัวประสานงาน",
-                        "introduction": "Areas are used to organize where devices are. This information will be used throughout Home Assistant to help you in organizing your interface, permissions and integrations with other systems.",
+                        "introduction": "Areas are used to organize where devices are. This information will be used throughout FLH HomeX to help you in organizing your interface, permissions and integrations with other systems.",
                         "introduction2": "สำหรับการวางอุปกรณ์ลงในพื้นที่ ใช้ลิงค์ด้านล่างเพื่อไปยังหน้าตัวประสานงาน และคลิ๊กเลือกที่การประสานงานที่มีการตั้งค่าแล้ว เพื่อที่จะให้แสดงการ์ดสำหรับอุปกรณ์",
                         "no_areas": "ดูเหมือนว่าคุณยังไม่มีห้องเลย!"
                     }
@@ -353,7 +353,7 @@
                             "delete_confirm": "คุณแน่ใจหรือไม่ว่าจะลบสิ่งนี้ทิ้ง?",
                             "duplicate": "แยกออกมาเป็นอันใหม่",
                             "header": "การกระทำ",
-                            "introduction": "ใช้สำหรับการกระทำที่ Home Assistant จะทำต่อเมื่อระบบอัตโนมัติมีการเรียกใช้งาน",
+                            "introduction": "ใช้สำหรับการกระทำที่ FLH HomeX จะทำต่อเมื่อระบบอัตโนมัติมีการเรียกใช้งาน",
                             "learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ Action",
                             "type": {
                                 "condition": {
@@ -488,7 +488,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "เหตุการณ์:",
-                                    "label": "Home Assistant",
+                                    "label": "FLH HomeX",
                                     "shutdown": "ปิด",
                                     "start": "เริ่มต้น"
                                 },
@@ -551,7 +551,7 @@
                     "picker": {
                         "add_automation": "เพิ่มระบบอัตโนมัติ",
                         "header": "เครื่องมือแก้ไข ระบบอัตโนมัติ",
-                        "introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured Home Assistant correctly.",
+                        "introduction": "The automation editor allows you to create and edit automations. Please follow the link below to read the instructions to make sure that you have configured FLH HomeX correctly.",
                         "learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ Automation",
                         "no_automations": "เราไม่พบระบบอัตโนมัติใด ๆ สามารถแก้ไขได้",
                         "pick_automation": "เลือกระบบอัตโนมัติเพื่อแก้ไข"
@@ -561,7 +561,7 @@
                     "account": {
                         "connected": "เชื่อมต่อแล้ว",
                         "google": {
-                            "not_configured_text": "ก่อนที่คุณจะใช้ Google Assistant ได้ คุณต้องเปิดใช้งานทักษะ Home Assistant Cloud สำหรับ Google Assistant ในแอป Google Home ก่อน",
+                            "not_configured_text": "ก่อนที่คุณจะใช้ Google Assistant ได้ คุณต้องเปิดใช้งานทักษะ FLH HomeX Cloud สำหรับ Google Assistant ในแอป Google Home ก่อน",
                             "not_configured_title": "ไม่ได้เปิดใช้งาน Google Assistant",
                             "title": "Google Assistant"
                         },
@@ -597,7 +597,7 @@
                         "email_error_msg": "อีเมลไม่ถูกต้อง",
                         "feature_amazon_alexa": "การผสานรวมกับ Amazon Alexa",
                         "feature_google_home": "การผสานรวมกับ Google Assistant",
-                        "feature_remote_control": "การควบคุม Home Assistant จากนอกบ้าน",
+                        "feature_remote_control": "การควบคุม FLH HomeX จากนอกบ้าน",
                         "feature_webhook_apps": "ง่ายต่อการบูรณาการ webhook กับ OwnTracks",
                         "headline": "เริ่มทดลองใช้ฟรี",
                         "link_privacy_policy": "นโยบายความเป็นส่วนตัว",
@@ -620,7 +620,7 @@
                                 "elevation_meters": "เมตร",
                                 "imperial_example": "ฟาเรนไฮต์, ปอนด์",
                                 "latitude": "ละติจูด",
-                                "location_name": "ชื่อในการติดตั้ง Home Assistant ของคุณ",
+                                "location_name": "ชื่อในการติดตั้ง FLH HomeX ของคุณ",
                                 "longitude": "ลองจิจูด",
                                 "metric_example": "เซลเซียส, กิโลกรัม",
                                 "save_button": "บันทึก",
@@ -658,10 +658,10 @@
                     "picker": {
                         "header": "เอนทิตีรีจิสทรี",
                         "introduction": "ระบบจะเก็บค่าของทุกๆ เอนทิตี้ไว้ โดยมันจะเป็นแบบนั้นและสามารถระบุค่าให้ไม่ซ้ำกันได้ ในแต่ละเอนทิตี้นั้นจะมี 'รหัสเอนทิตี้' ถูกกำหนดไว้อยู่แล้วซึ่งจะถูกกำหนดไว้ให้ใช้กับเอนทิตี้นั้นๆ เท่านั้น",
-                        "introduction2": "ใช้เอนทิตี้รีจิสตรีเพื่อแทนที่ชื่อเปลี่ยนรหัสประจำเอนทิตีหรือลบรายการออกจาก Home Assistant \nหมายเหตุ: การลบรายการเอนทิตีรีจิสตรีจะไม่ลบเอนทิตี โดยทำตามลิงก์ด้านล่างและลบออกจากหน้าการรวมระบบ"
+                        "introduction2": "ใช้เอนทิตี้รีจิสตรีเพื่อแทนที่ชื่อเปลี่ยนรหัสประจำเอนทิตีหรือลบรายการออกจาก FLH HomeX \nหมายเหตุ: การลบรายการเอนทิตีรีจิสตรีจะไม่ลบเอนทิตี โดยทำตามลิงก์ด้านล่างและลบออกจากหน้าการรวมระบบ"
                     }
                 },
-                "header": "ตั้งค่า Home Assistant",
+                "header": "ตั้งค่า FLH HomeX",
                 "integrations": {
                     "attention": "ต้องระบุ",
                     "caption": "ตัวประสานงาน",
@@ -673,7 +673,7 @@
                         "hub": "เชื่อมต่อผ่านทาง",
                         "manuf": "โดย {manufacturer}",
                         "no_area": "ไม่มีห้อง",
-                        "restart_confirm": "เริ่ม Home Assistant ใหม่หลังจากลบการบูรณาการนี้"
+                        "restart_confirm": "เริ่ม FLH HomeX ใหม่หลังจากลบการบูรณาการนี้"
                     },
                     "config_flow": {
                         "external_step": {
@@ -692,7 +692,7 @@
                     "none": "ยังไม่มีการกำหนดค่าใดๆ เลย",
                     "reconfigure": "กำหนดค่าใหม่"
                 },
-                "introduction": "ที่นี่คือที่สำหรับกำหนดค่าองค์ประกอบต่างๆ รวมถึงระบบของ Home Assistant ไม่ใช่ทุกอย่างที่จะสามารถตั้งค่าได้ผ่าน UI ในขณะนี้ แต่เรากำลังพัฒนาเพิ่มเติมอยู่นะ",
+                "introduction": "ที่นี่คือที่สำหรับกำหนดค่าองค์ประกอบต่างๆ รวมถึงระบบของ FLH HomeX ไม่ใช่ทุกอย่างที่จะสามารถตั้งค่าได้ผ่าน UI ในขณะนี้ แต่เรากำลังพัฒนาเพิ่มเติมอยู่นะ",
                 "mqtt": {
                     "title": "MQTT"
                 },
@@ -734,7 +734,7 @@
                 },
                 "server_control": {
                     "caption": "การควบคุมเซิร์ฟเวอร์",
-                    "description": "รีสตาร์ทและหยุดเซิร์ฟเวอร์ Home Assistant",
+                    "description": "รีสตาร์ทและหยุดเซิร์ฟเวอร์ FLH HomeX",
                     "section": {
                         "reloading": {
                             "core": "โหลดส่วนกลางใหม่",
@@ -743,7 +743,7 @@
                             "script": "โหลดสคริปต์อีกครั้ง"
                         },
                         "server_management": {
-                            "confirm_stop": "คุณแน่ใจหรือว่าต้องการหยุดการทำงานของ Home Assistant",
+                            "confirm_stop": "คุณแน่ใจหรือว่าต้องการหยุดการทำงานของ FLH HomeX",
                             "heading": "การจัดการเซิร์ฟเวอร์",
                             "restart": "เริ่มต้นใหม่",
                             "stop": "หยุด"
@@ -927,7 +927,7 @@
                     "migrate": {
                         "header": "การกำหนดค่าไม่ถูกต้อง",
                         "migrate": "โอนย้ายการกำหนดค่า",
-                        "para_migrate": "Home Assistant สามารถเพิ่มเลขกำกับของการ์ดและแสดงผลอัตโนมัติให้คุณได้ โดยกดปุ่ม 'Mirate Config'",
+                        "para_migrate": "FLH HomeX สามารถเพิ่มเลขกำกับของการ์ดและแสดงผลอัตโนมัติให้คุณได้ โดยกดปุ่ม 'Mirate Config'",
                         "para_no_id": "องค์ประกอบนี้ยังไม่มี ID (สามารถเพิ่ม ID ลงในองค์ประกอบนี้ได้ในไฟล์ 'ui-lovelace.yaml')"
                     },
                     "raw_editor": {
@@ -938,7 +938,7 @@
                     },
                     "save_config": {
                         "header": "ควบคุม Lovelace UI ในแบบของคุณ",
-                        "para": "โดยเริ่มต้น Home Assistant จะควบคุมส่วนต่อประสานผู้ใช้งานเอง เมื่อมี Entity หรือส่วนควบคุมใหม่ๆ จะถูกแสดงขึ้นให้เอง แต่ถ้าคุณอยากจะควบคุมเอง เราจะไม่มีการอัพเดทตามข้างต้นให้กับคุณ",
+                        "para": "โดยเริ่มต้น FLH HomeX จะควบคุมส่วนต่อประสานผู้ใช้งานเอง เมื่อมี Entity หรือส่วนควบคุมใหม่ๆ จะถูกแสดงขึ้นให้เอง แต่ถ้าคุณอยากจะควบคุมเอง เราจะไม่มีการอัพเดทตามข้างต้นให้กับคุณ",
                         "para_sure": "คุณแน่ใจหรือไม่ว่าต้องการควบคุมส่วนต่อประสานผู้ใช้งาน?",
                         "save": "ใช้การควบคุม"
                     },
@@ -1060,7 +1060,7 @@
                     "demo": {
                         "demo_by": "โดย {name}",
                         "introduction": "ยินดีต้อนรับกลับบ้าน! คุณมาถึงหน้าสาธิตที่เราแสดง UIs ที่ดีที่สุดที่สร้างโดยชุมชนของเรา",
-                        "learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ Home Assistant",
+                        "learn_more": "เรียนรู้เพิ่มเติมเกี่ยวกับ FLH HomeX",
                         "next_demo": "การสาธิตครั้งต่อไป"
                     }
                 },
@@ -1102,14 +1102,14 @@
                 "core-config": {
                     "button_detect": "ตรวจจับ",
                     "finish": "ต่อไป",
-                    "intro": "สวัสดี {name} ยินดีต้อนรับสู่ Home Assistant คุณต้องการตั้งชื่อบ้านของคุณยังไงดีละ",
+                    "intro": "สวัสดี {name} ยินดีต้อนรับสู่ FLH HomeX คุณต้องการตั้งชื่อบ้านของคุณยังไงดีละ",
                     "intro_location": "เราต้องการทราบว่าคุณอาศัยอยู่ที่ไหน ข้อมูลนี้จะช่วยในการแสดงข้อมูลต่างๆ และตั้งค่าการทำงานอัตโนมัติตามดวงอาทิตย์ ข้อมูลนี้จะไม่เปิดเผยไปยังนอกเครือข่ายของคุณ",
                     "intro_location_detect": "เราสามารถช่วยคุณกรอกข้อมูลส่วนนี้ได้โดยร้องขอข้อมูลไปยังบริการภายนอกครั้งเดียว",
                     "location_name_default": "บ้าน"
                 },
                 "integration": {
                     "finish": "เสร็จสิ้น",
-                    "intro": "อุปกรณ์และบริการแสดงอยู่ใน Home Assistant เป็นการผสานรวม คุณสามารถตั้งค่าตอนนี้หรือทำภายหลังจากหน้าจอการตั้งค่า",
+                    "intro": "อุปกรณ์และบริการแสดงอยู่ใน FLH HomeX เป็นการผสานรวม คุณสามารถตั้งค่าตอนนี้หรือทำภายหลังจากหน้าจอการตั้งค่า",
                     "more_integrations": "เพิ่มเติม"
                 },
                 "intro": "คุณพร้อมที่จะปลุกบ้านของคุณให้มีชีวิตแล้วหรือยัง อย่าลืมว่าคุณไม่ได้อยู่โดดเดี่ยวเดียวดาย ลองมาเข้าร่วมกับชุมชนนักประดิษฐ์จากทั่วโลกของเรากันไหม?",
@@ -1158,7 +1158,7 @@
                     "create_failed": "เกิดข้อผิดพลาดในการลบ Access Token",
                     "created": "สร้างเมื่อ {date}",
                     "delete_failed": "เกิดข้อผิดพลาดในการลบ Access Token",
-                    "description": "สร้างโทเค็นการเข้าถึงระยะยาวเพื่อให้สคริปต์ของคุณเชื่อมต่อกับ Home Assistant ได้ โดยแต่ละโทเค็นที่สร้างขึ้นจะอยู่ได้ 10 ปีนับจากวันที่สร้าง\nโทเค็นการเข้าถึงระยะยาวต่อไปนี้กำลังถูกใช้ในบัญชีของคุณอยู่..",
+                    "description": "สร้างโทเค็นการเข้าถึงระยะยาวเพื่อให้สคริปต์ของคุณเชื่อมต่อกับ FLH HomeX ได้ โดยแต่ละโทเค็นที่สร้างขึ้นจะอยู่ได้ 10 ปีนับจากวันที่สร้าง\nโทเค็นการเข้าถึงระยะยาวต่อไปนี้กำลังถูกใช้ในบัญชีของคุณอยู่..",
                     "empty_state": "คุณยังไม่มีโทเค็นการเข้าถึงระยะยาวเลย",
                     "header": "โทเค็นการเข้าถึงระยะยาว",
                     "learn_auth_requests": "เรียนรู้วิธีสร้างคำขอที่มีการรับรองความถูกต้อง",
