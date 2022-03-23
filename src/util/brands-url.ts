@@ -5,18 +5,6 @@ export interface BrandsOptions {
   darkOptimized?: boolean;
 }
 
-export const brandsUrl = (options: BrandsOptions): string => {
-  if (
-    options.domain === "ferqo_cc" ||
-    options.domain === "line_notify" ||
-    options.domain === "fibaro_home_center" ||
-    options.domain === "mjpeg_camera"
-  ) {
-    return `http://homex.local:8123/local/icon/${options.domain}/${
-      options.darkOptimized ? "dark_" : ""
-    }${options.type}.png`;
-  }
-  return `https://brands.home-assistant.io/${options.useFallback ? "_/" : ""}${
+export const brandsUrl = (options: BrandsOptions): string => `https://raw.githubusercontent.com/FLHCoLtd/hass-icon/main/components-icon/${
     options.domain
   }/${options.darkOptimized ? "dark_" : ""}${options.type}.png`;
-};
