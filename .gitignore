@@ -1,6 +1,6 @@
 .DS_Store
 .reify-cache
-
+.idea
 # build
 build
 build-translations/*

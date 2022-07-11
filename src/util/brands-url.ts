@@ -5,7 +5,6 @@ export interface BrandsOptions {
   darkOptimized?: boolean;
 }
 
-export const brandsUrl = (options: BrandsOptions): string =>
-  `https://brands.home-assistant.io/${options.useFallback ? "_/" : ""}${
+export const brandsUrl = (options: BrandsOptions): string => `https://raw.githubusercontent.com/FLHCoLtd/hass-icon/main/components-icon/${
     options.domain
   }/${options.darkOptimized ? "dark_" : ""}${options.type}.png`;

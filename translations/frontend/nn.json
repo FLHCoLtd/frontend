@@ -361,7 +361,7 @@
         },
         "dialogs": {
             "config_entry_system_options": {
-                "enable_new_entities_description": "Dersom denne er deaktivert, kjem ikkje nyoppdaga oppføringar til å bli automatisk lagt til i Home Assistant.",
+                "enable_new_entities_description": "Dersom denne er deaktivert, kjem ikkje nyoppdaga oppføringar til å bli automatisk lagt til i FLH HomeX.",
                 "enable_new_entities_label": "Aktiver nyleg tillagde oppføringar.",
                 "title": "Systemval",
                 "update": "Oppdater"
@@ -371,7 +371,7 @@
                     "confirm_delete": "Er du sikker på at du vil slette denne oppføringa?",
                     "delete": "SLETT",
                     "enabled_cause": "Deaktivert av {cause}.",
-                    "enabled_description": "Dekativere oppføringar kjem ikkje til å bli lagt til i Home Assistant",
+                    "enabled_description": "Dekativere oppføringar kjem ikkje til å bli lagt til i FLH HomeX",
                     "enabled_label": "Aktiver oppføringa",
                     "entity_id": "Oppførings-ID",
                     "name": "Namnoverskriding",
@@ -484,8 +484,8 @@
         "notification_toast": {
             "connection_lost": "Tilkopling mista. Prøver å kople til på nytt..",
             "service_call_failed": "Klarte ikkje å kalle tenesten {service}.",
-            "started": "Home Assistant har starta!",
-            "starting": "Home Assistant held på å starte. Alt er ikkje tilgjengeleg før den er ferdig starta."
+            "started": "FLH HomeX har starta!",
+            "starting": "FLH HomeX held på å starte. Alt er ikkje tilgjengeleg før den er ferdig starta."
         },
         "panel": {
             "config": {
@@ -508,7 +508,7 @@
                     "picker": {
                         "header": "Områderegister",
                         "integrations_page": "Integrasjonsside",
-                        "introduction": "Områda vert brukt til å organisere kvar einingar er. Denne informasjonen vil bli brukt av Home Assistant for å hjelpe deg å organisere brukargrensesnittet, løyver og integrasjoner med andre system.",
+                        "introduction": "Områda vert brukt til å organisere kvar einingar er. Denne informasjonen vil bli brukt av FLH HomeX for å hjelpe deg å organisere brukargrensesnittet, løyver og integrasjoner med andre system.",
                         "introduction2": "For å plassere ei eining i eit område, bruk linken under for å navigere til integrasjonssida og trykk deretter på konfigurer integrasjon for å opne einingskortet."
                     }
                 },
@@ -522,7 +522,7 @@
                             "delete_confirm": "Er du sikker på at du vil slette?",
                             "duplicate": "Dupliser",
                             "header": "Handlingar",
-                            "introduction": "Handlinga Home Assistant vil gjennomføre når automasjonen vert utløyst.",
+                            "introduction": "Handlinga FLH HomeX vil gjennomføre når automasjonen vert utløyst.",
                             "learn_more": "Lær meir om handlingar",
                             "name": "Handling",
                             "type": {
@@ -639,7 +639,7 @@
                             "delete_confirm": "Er du sikker på at du vil slette?",
                             "duplicate": "Dupliser",
                             "header": "Utløysarar",
-                            "introduction": "Utløysarar er det som startar ein prosess i ein automasjonsregel. Det er mogleg å spesifisere fleire utløysarar for same regel. Når ein utløysar startar, vil Home Assistant validere føresetnadane, dersom der er nokon, og så setje i gang handlinga.",
+                            "introduction": "Utløysarar er det som startar ein prosess i ein automasjonsregel. Det er mogleg å spesifisere fleire utløysarar for same regel. Når ein utløysar startar, vil FLH HomeX validere føresetnadane, dersom der er nokon, og så setje i gang handlinga.",
                             "learn_more": "Lær meir om utløysarar",
                             "name": "Utløysar",
                             "type": {
@@ -666,7 +666,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "Hending:",
-                                    "label": "Home Assistant",
+                                    "label": "FLH HomeX",
                                     "shutdown": "Slå av",
                                     "start": "Oppstart"
                                 },
@@ -732,7 +732,7 @@
                         "headers": {
                             "name": "Namn"
                         },
-                        "introduction": "Automasjonsredigeringa tillet deg å lage og redigere automasjonar. Ver vennleg og les [instruksjonane](https://home-assistant.io/docs/automation/editor/) for å vere sikker på om du har konfigurert Home Assistant rett.",
+                        "introduction": "Automasjonsredigeringa tillet deg å lage og redigere automasjonar. Ver vennleg og les [instruksjonane](https://home-assistant.io/docs/automation/editor/) for å vere sikker på om du har konfigurert FLH HomeX rett.",
                         "learn_more": "Lær meir om automasjonar",
                         "no_automations": "Vi klarte ikkje å finne nokon automasjonar som kunne redigerast",
                         "pick_automation": "Vel ein automasjon for å redigere"
@@ -783,7 +783,7 @@
                                 "imperial_example": "Fahrenheit, pound",
                                 "internal_url": "Intern URL",
                                 "latitude": "Breiddegrad",
-                                "location_name": "Namnet på Home Assistant-installasjonen din.",
+                                "location_name": "Namnet på FLH HomeX-installasjonen din.",
                                 "longitude": "Lengdegrad",
                                 "metric_example": "Celsius, kilogram",
                                 "save_button": "Lagre",
@@ -855,12 +855,12 @@
                             "integration": "Integrasjon",
                             "name": "Namn"
                         },
-                        "introduction": "Home Assistant har eit register over alle oppføringane den nokon gang har sett som kan unikt identifiserast. Kvar av desse oppføringane har ein eigen oppføringsidentifikasjon som er reservert for akkurat denne oppføringa.",
-                        "introduction2": "Bruk oppføringsregisteret til å skrive over namn, endre oppføringsidentifikasjonane eller fjerne oppføringar frå Home Assistant. Merk deg at å fjerne oppføringa i oppføringregisteret ikkje fjernar sjølve oppføringa. For å gjere dette, gå vidare inn på linken under og fjern oppføringa i integrasjonssida.",
+                        "introduction": "FLH HomeX har eit register over alle oppføringane den nokon gang har sett som kan unikt identifiserast. Kvar av desse oppføringane har ein eigen oppføringsidentifikasjon som er reservert for akkurat denne oppføringa.",
+                        "introduction2": "Bruk oppføringsregisteret til å skrive over namn, endre oppføringsidentifikasjonane eller fjerne oppføringar frå FLH HomeX. Merk deg at å fjerne oppføringa i oppføringregisteret ikkje fjernar sjølve oppføringa. For å gjere dette, gå vidare inn på linken under og fjern oppføringa i integrasjonssida.",
                         "search": "Søk i oppføringar"
                     }
                 },
-                "header": "Konfigurer Home Assistant",
+                "header": "Konfigurer FLH HomeX",
                 "info": {
                     "caption": "Info",
                     "documentation": "Dokumentasjon ",
@@ -885,8 +885,8 @@
                             },
                             "disabled_cause": "Deaktivert av {cause}"
                         },
-                        "disable_restart_confirm": "Start Home Assistant på nytt for å fullføre deaktiveringa av denne integrasjonen",
-                        "enable_restart_confirm": "Start Home Assistant på nytt for å fullføre aktiveringa av denne integrasjonen",
+                        "disable_restart_confirm": "Start FLH HomeX på nytt for å fullføre deaktiveringa av denne integrasjonen",
+                        "enable_restart_confirm": "Start FLH HomeX på nytt for å fullføre aktiveringa av denne integrasjonen",
                         "entities": "{count} {count, plural,\n  one {oppføring}\n  other {oppføringar}\n}",
                         "entity_unavailable": "Oppføringa utilgjengeleg",
                         "firmware": "Firmware: {version}",
@@ -894,7 +894,7 @@
                         "manuf": "av {manufacturer}",
                         "no_area": "Inga område",
                         "rename": "Endre namn",
-                        "restart_confirm": "Restart Home Assistant for å fjerne denne integrasjonen",
+                        "restart_confirm": "Restart FLH HomeX for å fjerne denne integrasjonen",
                         "system_options": "Systemval",
                         "unnamed_entry": "Oppføring utan namn"
                     },
@@ -932,7 +932,7 @@
                     "rename_dialog": "Rediger namnet til denne konfigurasjonsoppføringa",
                     "rename_input_label": "Oppføringsnavn"
                 },
-                "introduction": "Her er det mogleg å konfigurere dine komponenter og Home Assistant. Ikkje alt er mogleg å konfigurere frå brukarsnittet endå, men vi jobbar med saka.",
+                "introduction": "Her er det mogleg å konfigurere dine komponenter og FLH HomeX. Ikkje alt er mogleg å konfigurere frå brukarsnittet endå, men vi jobbar med saka.",
                 "logs": {
                     "caption": "Loggar"
                 },
@@ -946,7 +946,7 @@
                 },
                 "person": {
                     "caption": "Personar",
-                    "description": "Administrer personane Home Assistant sporer.",
+                    "description": "Administrer personane FLH HomeX sporer.",
                     "detail": {
                         "device_tracker_intro": "Vel eininga som høyrer til denne personen.",
                         "device_tracker_pick": "Vel eining for å spore",
@@ -989,22 +989,22 @@
                 },
                 "server_control": {
                     "caption": "Serverkontroll",
-                    "description": "Start om att og stopp Home Assistant-serveren",
+                    "description": "Start om att og stopp FLH HomeX-serveren",
                     "section": {
                         "reloading": {
                             "automation": "Oppdater automasjonane",
                             "core": "Oppdater kjerna",
                             "group": "Oppdater gruppene",
                             "heading": "Konfigurasjonsomlasting",
-                            "introduction": "Nokre delar av Home Assistant kan oppdaterast utan ein omstart. Ved å trykke på oppdater, vil Home Assistant forkaste den gjeldande konfigurasjonen og erstatte den med den nye.",
+                            "introduction": "Nokre delar av FLH HomeX kan oppdaterast utan ein omstart. Ved å trykke på oppdater, vil FLH HomeX forkaste den gjeldande konfigurasjonen og erstatte den med den nye.",
                             "scene": "Omlast scenene",
                             "script": "Oppdater skripta"
                         },
                         "server_management": {
-                            "confirm_restart": "Er du sikker på at du ønsker å starte Home Assistant omatt?",
-                            "confirm_stop": "Er du sikker på at du ønsker å stoppe Home Assistant?",
+                            "confirm_restart": "Er du sikker på at du ønsker å starte FLH HomeX omatt?",
+                            "confirm_stop": "Er du sikker på at du ønsker å stoppe FLH HomeX?",
                             "heading": "Serveradministrasjon",
-                            "introduction": "Kontroller Home Assistant-serveren din... frå Home Assistant.",
+                            "introduction": "Kontroller FLH HomeX-serveren din... frå FLH HomeX.",
                             "restart": "Omstart",
                             "stop": "Stopp"
                         },
@@ -1121,7 +1121,7 @@
                         "add_to_group": "Legg til i gruppa",
                         "entities": "Oppføringar for denne noda",
                         "entity_info": "Oppføringsinformasjon",
-                        "exclude_entity": "Ekskluder denne oppføringa frå Home Assistant",
+                        "exclude_entity": "Ekskluder denne oppføringa frå FLH HomeX",
                         "group": "Gruppe ",
                         "header": "Z-Wave-nodeadministrasjon",
                         "introduction": "Køyr Z-Wavekommando som påverker ei enkel node. Vel ei node for å sjå listene med tilgjengelege kommandoar.",
@@ -1215,7 +1215,7 @@
                         "clear_items": "Fjern dei markerrte elementa"
                     },
                     "starting": {
-                        "description": "Home Assistant held på å starte. Ver vennleg og vent."
+                        "description": "FLH HomeX held på å starte. Ver vennleg og vent."
                     }
                 },
                 "changed_toast": {
@@ -1279,7 +1279,7 @@
                             "description": "Horisontalstablekortet let deg stable kort saman horisontalt, slik at dei alltid står ved sidan av kvarandre i same rom som ei kolonne."
                         },
                         "iframe": {
-                            "description": "Websidekortet let deg vise favorittwebsida di rett inn i Home Assistant",
+                            "description": "Websidekortet let deg vise favorittwebsida di rett inn i FLH HomeX",
                             "name": "iFrame"
                         },
                         "light": {
@@ -1330,7 +1330,7 @@
                     "migrate": {
                         "header": "Konfigurasjonen er ikkje kompatibel",
                         "migrate": "Overfør konfigurasjon",
-                        "para_migrate": "Home assistant kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved å trykke \"Overfør konfigurasjon\"-knappen.",
+                        "para_migrate": "FLH HomeX kan legge til ID-ar til alle korta og sidene dine automatisk for deg ved å trykke \"Overfør konfigurasjon\"-knappen.",
                         "para_no_id": "Dette elementet har ikkje ein ID. Ver vennleg og legg til ein ID til dette elementet i \"ui-lovelace.yaml\"-fila di."
                     },
                     "raw_editor": {
@@ -1344,7 +1344,7 @@
                     "save_config": {
                         "empty_config": "Start med eit tomt dashboard",
                         "header": "Ta kontroll over Lovelace-brukargrensesnittet",
-                        "para": "Som standard kjem Home Assistant til å vedlikehalde brukargrensesnittet, og oppdatere det når nye oppføringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
+                        "para": "Som standard kjem FLH HomeX til å vedlikehalde brukargrensesnittet, og oppdatere det når nye oppføringar eller Lovelace-komponentar vert tilgjengelege. Dersom du tek kontroll, vil vi ikkje lenger kunne lage dette til automatisk for deg.",
                         "para_sure": "Er du sikker på at du vil ta kontroll over brukergrensesnittet ditt?",
                         "save": "Ta kontroll"
                     },
@@ -1373,7 +1373,7 @@
                     "entity_non_numeric": "Oppføringa er ikkje numerisk: {entity}",
                     "entity_not_found": "Oppføringa er utilgjengeleg: {entity}",
                     "entity_unavailable": "{entity} er utilgjengeleg for augeblinken",
-                    "starting": "Home Assistant held på å starte. Det kan hende at alt ikkje er tilgjengeleg endå."
+                    "starting": "FLH HomeX held på å starte. Det kan hende at alt ikkje er tilgjengeleg endå."
                 }
             },
             "mailbox": {
@@ -1383,16 +1383,16 @@
                 "playback_title": "Meldingsavspeling"
             },
             "my": {
-                "component_not_loaded": "Denne viderekoplinga er ikkje støtta av Home Assistant-førekomsten. Du treng {integration}-integrasjonen å bruke denne viderekoplinga.",
+                "component_not_loaded": "Denne viderekoplinga er ikkje støtta av FLH HomeX-førekomsten. Du treng {integration}-integrasjonen å bruke denne viderekoplinga.",
                 "documentation": "dokumentasjon",
                 "error": "Det hende ein ukjent feil ",
                 "faq_link": "Mine Home Assitant-FAQ",
-                "no_supervisor": "Denne viderekoplinga er ikkje støtta av Home Assistant-installasjonen. Det trengs anten installasjonsmetoden Home Assistant eller Home Assistant Supervised. For meir informasjon, sjå {docs_link} .",
-                "not_supported": "Denne viderekoplinga er ikkje støtta av Home Assistant-førekomsten. Sjå {link} for dei støtta vidarekoplingane og ved kva versjon dei vart introdusert."
+                "no_supervisor": "Denne viderekoplinga er ikkje støtta av FLH HomeX-installasjonen. Det trengs anten installasjonsmetoden FLH HomeX eller FLH HomeX Supervised. For meir informasjon, sjå {docs_link} .",
+                "not_supported": "Denne viderekoplinga er ikkje støtta av FLH HomeX-førekomsten. Sjå {link} for dei støtta vidarekoplingane og ved kva versjon dei vart introdusert."
             },
             "page-authorize": {
                 "abort_intro": "Innlogging avbrote",
-                "authorizing_client": "Du held på å gi {clientId} tilgang til Home Assistant-instansen din.",
+                "authorizing_client": "Du held på å gi {clientId} tilgang til FLH HomeX-instansen din.",
                 "form": {
                     "error": "Feil: {error}",
                     "next": "Neste",
@@ -1490,8 +1490,8 @@
                 "cards": {
                     "demo": {
                         "demo_by": "av {name}",
-                        "introduction": "Velkommen heim! Du har no nådd Home Assistant-demoen, der vi viser fram nokre av dei beste brukargrensesnitta laga av samfunnet våra.",
-                        "learn_more": "Lær meir om Home Assistant",
+                        "introduction": "Velkommen heim! Du har no nådd FLH HomeX-demoen, der vi viser fram nokre av dei beste brukargrensesnitta laga av samfunnet våra.",
+                        "learn_more": "Lær meir om FLH HomeX",
                         "next_demo": "Neste demo"
                     }
                 },
@@ -1533,14 +1533,14 @@
                 "core-config": {
                     "button_detect": "Oppdag",
                     "finish": "Neste",
-                    "intro": "Hei {name}! Velkomen til Home Assistant. Kva for namn ønsker du å gi heimen din?",
+                    "intro": "Hei {name}! Velkomen til FLH HomeX. Kva for namn ønsker du å gi heimen din?",
                     "intro_location": "Vi vil gjerne vite kvar du bur. Denne informasjonen kjem til å hjelpe deg å vise fram informasjon og sette opp solbaserte automasjonar. Dataa vert aldri delt utanom nettverket ditt.",
                     "intro_location_detect": "Vi kan hjelpe deg med å fylle ut denne informasjonen ved å sende ein eingangsførespurnad til ei ekstern teneste.",
                     "location_name_default": "Heim"
                 },
                 "integration": {
                     "finish": "Fullfør",
-                    "intro": "Einingar og tenester er representerte i Home Assistant som integrasjonar. Du kan sette dei opp no, eller gjer det seinare i konfigurasjonsmenyen.",
+                    "intro": "Einingar og tenester er representerte i FLH HomeX som integrasjonar. Du kan sette dei opp no, eller gjer det seinare i konfigurasjonsmenyen.",
                     "more_integrations": "Meir"
                 },
                 "intro": "Er du klar til å vekke heimen din til liv, vinne tilbake privatlivet ditt og vli med i eit verdsomspennande samfunn av tinkerers?",
@@ -1596,7 +1596,7 @@
                     "create": "Lag token",
                     "create_failed": "Klarte ikkje å lage tilgangstoken.",
                     "delete_failed": "Klarte ikkje å slette tilgangstoken",
-                    "description": "Lag ein langtidslevande tilgangstoken som tillet skripta dine å samhandle med Home Assistant-instansen. Kvar token vil vere gyldig i 10 år etter oppretting. Dei fylgande langtidslevande tokenane er for tida aktive.",
+                    "description": "Lag ein langtidslevande tilgangstoken som tillet skripta dine å samhandle med FLH HomeX-instansen. Kvar token vil vere gyldig i 10 år etter oppretting. Dei fylgande langtidslevande tokenane er for tida aktive.",
                     "empty_state": "Du har ikkje langtidslevande tilgangstoken endå.",
                     "header": "Langtidslevande tilgangstokenar",
                     "learn_auth_requests": "Lær korleis du lagar ein autentisert førespurnad.",
