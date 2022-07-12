@@ -4,18 +4,14 @@ export interface BrandsOptions {
   useFallback?: boolean;
   darkOptimized?: boolean;
 }
-
 export interface HardwareBrandsOptions {
   category: string;
   model?: string;
   manufacturer: string;
   darkOptimized?: boolean;
 }
-
 export const brandsUrl = (options: BrandsOptions): string =>
-  `https://brands.home-assistant.io/${options.useFallback ? "_/" : ""}${
-    options.domain
-  }/${options.darkOptimized ? "dark_" : ""}${options.type}.png`;
+  `https://raw.githubusercontent.com/FLHCoLtd/hass-icon/main/components-icon/${options.domain}/${options.type}.png`;
 
 export const hardwareBrandsUrl = (options: HardwareBrandsOptions): string =>
   `https://brands.home-assistant.io/hardware/${options.category}/${

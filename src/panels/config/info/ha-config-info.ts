@@ -56,16 +56,14 @@ class HaConfigInfo extends LitElement {
             </ha-logo-svg>
           </a>
           <br />
-          <h3>Home Assistant Core ${hass.connection.haVersion}</h3>
+          <h3>FLH HomeX Core ${hass.connection.haVersion}</h3>
           ${this._hassioInfo
             ? html`
-                <h3>
-                  Home Assistant Supervisor ${this._hassioInfo.supervisor}
-                </h3>
+                <h3>FLH HomeX Supervisor ${this._hassioInfo.supervisor}</h3>
               `
             : ""}
           ${this._osInfo?.version
-            ? html`<h3>Home Assistant OS ${this._osInfo.version}</h3>`
+            ? html`<h3>FLH HomeX OS ${this._osInfo.version}</h3>`
             : ""}
           <p>
             ${this.hass.localize(

@@ -206,7 +206,7 @@
                                 },
                                 "homeassistant": {
                                     "event": "ఈవెంట్",
-                                    "label": "Home Assistant",
+                                    "label": "FLH HomeX",
                                     "start": "ప్రారంభం"
                                 },
                                 "mqtt": {
@@ -261,7 +261,7 @@
                         }
                     }
                 },
-                "header": "కాన్ఫిగర్ Home Assistant",
+                "header": "కాన్ఫిగర్ FLH HomeX",
                 "mqtt": {
                     "title": "MQTT"
                 },
