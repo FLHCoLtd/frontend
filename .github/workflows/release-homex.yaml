@@ -29,6 +29,8 @@ jobs:
         run: yarn install
       
       - name: Build and release package
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
         run: script/build_frontend
       
       - name: zip file
