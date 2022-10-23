@@ -1,11 +1,9 @@
 name: Release
 
 on:
-  push:
-    # Sequence of patterns matched against refs/tags
-    tags:
-      - 'homex*' # Push events to matching v*, i.e. v1.0, v20.15.10
-
+  release:
+    types:
+      - published
 
 env:
   PYTHON_VERSION: 3.8

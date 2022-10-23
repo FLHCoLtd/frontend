@@ -13,6 +13,30 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Verify version
+        uses: home-assistant/actions/helpers/verify-version@master
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Set up Node ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install
+      
+      - name: Build and release package
+        run: script/build_frontend
+      
+      - name: zip file
+        run: tar zcvf homex-frontend.tar.gz ./hass_frontend 
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -27,3 +51,14 @@ jobs:
             - Second Change
           draft: false
           prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          asset_path: ./omex-frontend.tar.gz
+          asset_name: omex-frontend.tar.gz
+          asset_content_type: application/zip
