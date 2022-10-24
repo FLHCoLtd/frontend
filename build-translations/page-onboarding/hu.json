@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Készen állsz arra, hogy felébreszd az otthonod, visszaszerezd a magánéleted és csatlakozz egy világhálós közösséghez?",
+        "next": "Következő",
+        "finish": "Befejezés",
+        "user": {
+          "intro": "Kezdjük a felhasználói fiók létrehozásával.",
+          "required_field": "Szükséges",
+          "data": {
+            "name": "Név",
+            "username": "Felhasználónév",
+            "password": "Jelszó",
+            "password_confirm": "Jelszó megerősítése"
+          },
+          "create_account": "Fiók Létrehozása",
+          "error": {
+            "required_fields": "Töltsd ki az összes szükséges mezőt",
+            "password_not_match": "A jelszavak nem egyeznek"
+          }
+        },
+        "core-config": {
+          "intro": "Helló {name}, FLH HomeX üdvözöl! Hogyan szeretnéd elnevezni az otthonodat?",
+          "intro_location": "Szeretnénk tudni, hogy hol élsz. Ez segít az információk megjelenítésében és a nap alapú automatizálások beállításában. Ez az adat soha nem lesz megosztva a hálózatodon kívül.",
+          "intro_location_detect": "Segíthetünk neked kitölteni ezt az információt egy külső szolgáltatás egyszeri lekérdezésével.",
+          "location_name": "A FLH HomeX rendszered neve",
+          "location_name_default": "Otthon",
+          "button_detect": "Észlelés",
+          "finish": "Tovább"
+        },
+        "integration": {
+          "intro": "Az eszközöket és szolgáltatásokat a FLH HomeX integrációként kezeli. Beállíthatod őket most, vagy később a konfigurációs képernyőn.",
+          "more_integrations": "Több",
+          "finish": "Befejezés"
+        },
+        "analytics": { "finish": "Következő" },
+        "restore": {
+          "description": "Alternatív megoldásként visszaállíthatsz egy korábbi pillanatképet.",
+          "in_progress": "Visszaállítás folyamatban",
+          "show_log": "Teljes napló megjelenítése",
+          "hide_log": "Teljes napló elrejtése",
+          "full_backup": "Full backup",
+          "partial_backup": "Partial backup",
+          "type": "Pillanatkép típusa",
+          "select_type": "Válassza ki, hogy mit szeretne visszaállítani",
+          "folders": "Mappák",
+          "addons": "Bővítmények",
+          "password_protection": "Jelszóvédelem",
+          "password": "Pillanatkép jelszava",
+          "confirm_password": "Pillanatkép jelszó megerősítése"
+        }
+      }
+    }
+  }
+}

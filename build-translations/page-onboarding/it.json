@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Sei pronto per risvegliare la tua casa, reclamare la tua privacy e far parte di una comunità mondiale di smanettoni?",
+        "next": "Avanti",
+        "finish": "Finito",
+        "user": {
+          "intro": "Cominciamo con la creazione di un account utente.",
+          "required_field": "Necessario",
+          "data": {
+            "name": "Nome",
+            "username": "Nome utente",
+            "password": "Password",
+            "password_confirm": "Conferma la nuova password"
+          },
+          "create_account": "Crea un Account",
+          "error": {
+            "required_fields": "Compila tutti i campi richiesti",
+            "password_not_match": "Le password non corrispondono"
+          }
+        },
+        "core-config": {
+          "intro": "Salve {name}, benvenuto su FLH HomeX. Come vorresti nominare la tua casa?",
+          "intro_location": "Vorremmo sapere dove vivete. Queste informazioni aiuteranno a visualizzare informazioni e automazioni basate sul sole. Questi dati non vengono mai condivisi al di fuori della vostra rete.",
+          "intro_location_detect": "Possiamo aiutarti a compilare queste informazioni effettuando una richiesta una volta a un servizio esterno.",
+          "location_name": "Nome della tua installazione di FLH HomeX",
+          "location_name_default": "Casa",
+          "button_detect": "Rileva",
+          "finish": "Prossimo"
+        },
+        "integration": {
+          "intro": "Dispositivi e servizi sono rappresentati in FLH HomeX come integrazioni. È possibile impostarli ora, o farlo in seguito dalla schermata di configurazione.",
+          "more_integrations": "Di Più",
+          "finish": "Finito"
+        },
+        "analytics": { "finish": "Avanti" },
+        "restore": {
+          "description": "In alternativa è possibile ripristinare da un'istantanea precedente.",
+          "in_progress": "Ripristino in corso",
+          "show_log": "Mostra il registro completo",
+          "hide_log": "Nascondi il registro completo",
+          "full_backup": "Full backup",
+          "partial_backup": "Partial backup",
+          "type": "Tipo di istantanea",
+          "select_type": "Seleziona cosa ripristinare",
+          "folders": "Cartelle",
+          "addons": "Componenti aggiuntivi",
+          "password_protection": "Protezione con password",
+          "password": "Password dell'istantanea",
+          "confirm_password": "Conferma la password dell'istantanea"
+        }
+      }
+    }
+  }
+}

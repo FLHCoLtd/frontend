@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "Esta redirección no es compatible con su instancia de FLH HomeX. Consulte en {link} para conocer las redirecciones admitidas y la versión en la que se introdujeron.",
+        "component_not_loaded": "Esta redirección no es compatible con su instancia de FLH HomeX. Necesita la integración {integration} para usar este redireccionamiento.",
+        "no_supervisor": "Esta redirección no es compatible con su instalación de FLH HomeX. Necesita el sistema operativo FLH HomeX o el método de instalación supervisado por FLH HomeX. Para obtener más información, consulte en {docs_link} .",
+        "documentation": "documentación",
+        "faq_link": "Preguntas frecuentes de mi FLH HomeX",
+        "error": "Se ha producido un error desconocido"
+      }
+    }
+  }
+}

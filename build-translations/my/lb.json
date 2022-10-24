@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "This redirect is not supported by your FLH HomeX instance. Check the {link} for the supported redirects and the version they where introduced.",
+        "component_not_loaded": "This redirect is not supported by your FLH HomeX instance. You need the integration {integration} to use this redirect.",
+        "no_supervisor": "Dëse Redirect gëtt net vun Denger FLH HomeX Installatioun ënnerstëtzt. Et brauch entweder een FLH HomeX Betribssystem oder eng FLH HomeX Superviséiert Installatiounsmethod. Fir méi Informatiounen, kuck {docs_link}.",
+        "documentation": "Dokumentatioun",
+        "faq_link": "My FLH HomeX FAQ",
+        "error": "An unknown error occurred"
+      }
+    }
+  }
+}

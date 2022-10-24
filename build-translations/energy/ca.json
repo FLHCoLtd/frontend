@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Següent",
+          "back": "Torna",
+          "done": "Mostra'm el tauler d'energia!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Consum total d'energia",
+          "solar": "Solar",
+          "by_device": "Consum per dispositiu"
+        }
+      }
+    }
+  }
+}

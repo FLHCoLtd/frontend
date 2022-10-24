@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "Diese Weiterleitung wird von deiner FLH HomeX-Instanz nicht unterstützt. Überprüfe den {link} auf die unterstützten Weiterleitungen und die Version, in der sie eingeführt wurden.",
+        "component_not_loaded": "Diese Weiterleitung wird von deiner FLH HomeX-Instanz nicht unterstützt. Du benötigst die Integration {integration}, um diese Weiterleitung zu verwenden.",
+        "no_supervisor": "Diese Weiterleitung wird von deiner FLH HomeX-Installation nicht unterstützt. Benötigt entweder das FLH HomeX-Betriebssystem oder die FLH HomeX Supervised-Installationsmethode. Weitere Informationen findest du unter {docs_link}.",
+        "documentation": "Dokumentation",
+        "faq_link": "Meine FLH HomeX FAQ",
+        "error": "Ein unbekannter Fehler ist aufgetreten."
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "下一步",
+          "back": "上一步",
+          "done": "顯示能源面板！"
+        },
+        "charts": {
+          "stat_house_energy_meter": "總能源耗電量",
+          "solar": "太陽能",
+          "by_device": "裝置耗電量"
+        }
+      }
+    }
+  }
+}

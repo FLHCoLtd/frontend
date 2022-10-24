@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Neste",
+          "back": "Tilbake",
+          "done": "Vis meg mitt energidashboard!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Totalt energiforbruk",
+          "solar": "Solenergi",
+          "by_device": "Forbruk etter enhet"
+        }
+      }
+    }
+  }
+}

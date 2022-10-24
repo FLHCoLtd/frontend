@@ -1,0 +1,97 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "אירועים",
+            "description": "יריית אירוע במערכת",
+            "documentation": "תיעוד אירועים",
+            "type": "סוג אירוע",
+            "data": "נתוני אירוע (YAML, אופציונלי)",
+            "fire_event": "שגר אירוע",
+            "event_fired": "אירוע {name} נורה",
+            "active_listeners": "Active listeners",
+            "count_listeners": " ({count} מאזינים)",
+            "listen_to_events": "האזן לאירועים",
+            "listening_to": "מאזין ל",
+            "subscribe_to": "אירוע להירשם אליו",
+            "start_listening": "התחל להאזין",
+            "stop_listening": "עצור האזנה",
+            "alert_event_type": "סוג האירוע הוא שדה חובה",
+            "notification_event_fired": "האירוע {type} הופעל בהצלחה!",
+            "available_events": "אירועים זמינים"
+          },
+          "services": {
+            "title": "שירותים",
+            "description": "כלי הפיתוח של השירותים מאפשר לך לקרוא לכל שירות ב FLH HomeX.",
+            "call_service": "קריאה לשירות",
+            "column_parameter": "פרמטר",
+            "column_description": "תיאור",
+            "column_example": "דוגמא",
+            "fill_example_data": "מלא נתונים לדוגמה",
+            "yaml_mode": "עבור למצב YAML",
+            "ui_mode": "עבור למצב ממשק משתמש",
+            "yaml_parameters": "פרמטרים זמינים במצב YAML בלבד",
+            "all_parameters": "כל הפרמטרים הזמינים",
+            "accepts_target": "שירות זה מקבל יעד, לדוגמה: 'entity_id: light.bed_light'",
+            "no_template_ui_support": "ממשק המשתמש אינו תומך בתבניות, עדיין תוכל להשתמש בעורך ה YAML."
+          },
+          "states": {
+            "title": "מצבים",
+            "description1": "הגדר את ייצוג המצב הנוכחי של ישות במסגרת Assistant Home.",
+            "description2": "אם הישות שייכת להתקן, לא תהיה תקשורת ממשית עם התקן זה.",
+            "entity": "ישות",
+            "state": "מצב",
+            "attributes": "תכונות",
+            "state_attributes": "תכונות מצב (YAML, אופציונלי)",
+            "set_state": "קבע מצב",
+            "current_entities": "ישויות נוכחיות",
+            "filter_entities": "סנן ישויות",
+            "filter_states": "סנן מצבים",
+            "filter_attributes": "סנן תכונות",
+            "no_entities": "אין ישויות",
+            "more_info": "מידע נוסף",
+            "alert_entity_field": "ישות היא שדה חובה",
+            "last_updated": "עודכן לאחרונה",
+            "last_changed": "שינוי אחרון",
+            "copy_id": "העתק מזהה ללוח"
+          },
+          "templates": {
+            "title": "תבניות",
+            "description": "תבניות מעובדות באמצעות מנגנון התבניות Jinja2 עם כמה הרחבות ספציפיות של FLH HomeX.",
+            "editor": "עורך תבניות",
+            "reset": "איפוס לתבנית הדגמה",
+            "result_type": "סוג תוצאה",
+            "jinja_documentation": "תיעוד תבנית Jinja2",
+            "template_extensions": "הרחבות תבנית של FLH HomeX",
+            "unknown_error_template": "תבנית עיבוד שגיאות לא ידועה",
+            "time": "תבנית זו מתעדכנת בתחילת כל דקה.",
+            "all_listeners": "תבנית זו מאזינה לכל האירועים שהשתנו על ידי המצב.",
+            "no_listeners": "תבנית זו אינה מאזינה לאירועים כלשהם ולא תתעדכן באופן אוטומטי.",
+            "listeners": "תבנית זו מאזינה לאירועים הבאים שהשתנו במצב:",
+            "entity": "ישות",
+            "domain": "תחום"
+          },
+          "statistics": {
+            "title": "Statistics",
+            "entity": "Entity",
+            "issue": "Issue",
+            "issues": {
+              "units_changed": "The unit of this entity changed from ''{metadata_unit}'' to ''{state_unit}''.",
+              "unsupported_unit": "The unit (''{state_unit}'') of this entity doesn't match a unit of device class ''{device_class}''."
+            },
+            "fix_issue": {
+              "units_changed": {
+                "title": "The unit of this entity changed",
+                "update": "Update the historic statistic values from ''{metadata_unit}'' to ''{state_unit}''",
+                "clear": "Delete all old statistic data for this entity",
+                "fix": "Fix issue"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

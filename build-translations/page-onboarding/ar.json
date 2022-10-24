@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "هل أنت مستعد لإيقاظ منزلك واستعادة خصوصيتك والانضمام إلى مجتمع عالمي من اللاعبين؟",
+        "next": "التالى",
+        "finish": "انتهى",
+        "user": {
+          "intro": "لنبدأ بإنشاء حساب مستخدم.",
+          "required_field": "مطلوب",
+          "data": {
+            "name": "الاسم",
+            "username": "المستخدم",
+            "password": "كلمة المرور",
+            "password_confirm": "تأكيد كلمة المرور"
+          },
+          "create_account": "إنشاء حساب",
+          "error": {
+            "required_fields": "املأ جميع الحقول المطلوبة",
+            "password_not_match": "كلمات المرور غير متطابقة"
+          }
+        },
+        "core-config": {
+          "intro": "مرحبًا {name} ، مرحبًا بك في FLH HomeX. ماذا تريد تسمية منزلك؟",
+          "intro_location": "نود أن نعرف أين تعيش. ستساعد هذه المعلومات في عرض المعلومات وإعداد الأتمتة القائمة على الشمس. لا يتم ابدا مشاركة هذه البيانات خارج الشبكة الخاصة بك.",
+          "intro_location_detect": "يمكننا مساعدتك في ملء هذه المعلومات عن طريق تقديم طلب لمرة واحدة إلى خدمة خارجية.",
+          "location_name": "اسم تثبيت FLH HomeX الخاص بك",
+          "location_name_default": "المنزل",
+          "button_detect": "كشف",
+          "finish": "التالى"
+        },
+        "integration": {
+          "intro": "يتم تمثيل الأجهزة والخدمات في FLH HomeX كتكاملات. يمكنك إعدادها الآن ، أو القيام بذلك لاحقًا من شاشة التكوين.",
+          "more_integrations": "المزيد",
+          "finish": "إنهاء"
+        },
+        "analytics": { "finish": "التالى" },
+        "restore": {
+          "description": "Alternatively you can restore from a previous backup.",
+          "in_progress": "Restore in progress",
+          "show_log": "Show full log",
+          "hide_log": "Hide full log",
+          "full_backup": "Full backup",
+          "partial_backup": "Partial backup",
+          "type": "نوع اللقطة",
+          "select_type": "تحديد ما يجب استعادته",
+          "folders": "المجلدات",
+          "addons": "الإضافات",
+          "password_protection": "حماية كلمة المرور",
+          "password": "كلمة مرور اللقطة",
+          "confirm_password": "تأكيد كلمة مرور اللقطة"
+        }
+      }
+    }
+  }
+}

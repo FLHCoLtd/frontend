@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Järgmine",
+          "back": "Tagasi",
+          "done": "Kuva energiabilansi vaade!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Energia tarbimine kokku",
+          "solar": "Päikeseenergia",
+          "by_device": "Tarbimine seadmete kaupa"
+        }
+      }
+    }
+  }
+}

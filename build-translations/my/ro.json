@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "Această redirecționare nu este acceptată de instanța FLH HomeX. Verificați {link} pentru redirecționările acceptate și versiunea pe care au fost introduse.",
+        "component_not_loaded": "This redirect is not supported by your FLH HomeX instance. You need the integration {integration} to use this redirect.",
+        "no_supervisor": "This redirect is not supported by your FLH HomeX installation. It needs either the FLH HomeX Operating System or FLH HomeX Supervised installation method. For more information, see the {docs_link}.",
+        "documentation": "documentație",
+        "faq_link": "Întrebări frecvente despre FLH HomeX",
+        "error": "A apărut o eroare necunoscută"
+      }
+    }
+  }
+}

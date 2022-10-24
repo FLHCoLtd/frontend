@@ -1,0 +1,8 @@
+{
+  "ui.panel.my.not_supported": "Deze redirect wordt niet ondersteund door uw FLH HomeX instantie. Controleer de {link} voor de ondersteunde redirects en de versie waarin ze zijn geïntroduceerd.",
+  "ui.panel.my.component_not_loaded": "Deze omleiding wordt niet ondersteund door uw FLH HomeX-instantie. U heeft de integratie {integration} nodig om deze omleiding te gebruiken.",
+  "ui.panel.my.no_supervisor": "Deze omleiding wordt niet ondersteund door uw FLH HomeX-installatie. Het vereist ofwel het FLH HomeX besturingssysteem of de FLH HomeX gecontroleerde installatiemethode. Voor meer informatie, zie de {docs_link}.",
+  "ui.panel.my.documentation": "documentatie",
+  "ui.panel.my.faq_link": "My FLH HomeX FAQ",
+  "ui.panel.my.error": "Er is een onbekende fout opgetreden"
+}

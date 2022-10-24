@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Jste připraveni oživit svůj domov, zachovat si své soukromí a připojit se k celosvětové komunitě tvůrců?",
+        "next": "Další",
+        "finish": "Dokončit",
+        "user": {
+          "intro": "Začněme tím, že vytvoříme uživatelský účet.",
+          "required_field": "Povinné",
+          "data": {
+            "name": "Jméno",
+            "username": "Uživatelské jméno",
+            "password": "Heslo",
+            "password_confirm": "Potvrzení hesla"
+          },
+          "create_account": "Vytvořit účet",
+          "error": {
+            "required_fields": "Vyplňte všechna povinná pole",
+            "password_not_match": "Hesla se neshodují"
+          }
+        },
+        "core-config": {
+          "intro": "Dobrý den, {name} , vítejte v FLH HomeX. Jak byste chtěli pojmenovat svůj domov?",
+          "intro_location": "Rádi bychom věděli, kde žijete. Tyto informace pomohou při zobrazování informací a určování přesné polohy slunce. Tato data nejsou nikdy sdílena mimo vaši síť.",
+          "intro_location_detect": "Můžeme vám pomoci vyplnit tyto informace jednorázovým požadavkem na externí službu.",
+          "location_name": "Název vaší instalace FLH HomeX",
+          "location_name_default": "Domov",
+          "button_detect": "Rozpoznat",
+          "finish": "Další"
+        },
+        "integration": {
+          "intro": "Zařízení a služby jsou v FLH HomeX reprezentovány jako integrace. Ty můžete nastavit nyní nebo později v nastavení.",
+          "more_integrations": "Více",
+          "finish": "Dokončit"
+        },
+        "analytics": { "finish": "Další" },
+        "restore": {
+          "description": "Případně můžete FLH HomeX obnovit z poslední zálohy.",
+          "in_progress": "Probíhá obnovení",
+          "show_log": "Zobrazit celý log",
+          "hide_log": "Skrýt celý log",
+          "full_backup": "Full backup",
+          "partial_backup": "Partial backup",
+          "type": "Typ zálohy",
+          "select_type": "Vyberte, co chcete obnovit",
+          "folders": "Složky",
+          "addons": "Doplňky",
+          "password_protection": "Ochrana heslem",
+          "password": "Heslo zálohy",
+          "confirm_password": "Potvrďte heslo zálohy"
+        }
+      }
+    }
+  }
+}

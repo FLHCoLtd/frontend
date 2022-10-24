@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "下一步",
+          "back": "后退",
+          "done": "看看我的能源仪表盘！"
+        },
+        "charts": {
+          "stat_house_energy_meter": "总能耗",
+          "solar": "太阳能",
+          "by_device": "设备能耗"
+        }
+      }
+    }
+  }
+}

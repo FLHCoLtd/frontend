@@ -1,0 +1,97 @@
+{
+  "ui": {
+    "panel": {
+      "developer-tools": {
+        "tabs": {
+          "events": {
+            "title": "Eventos",
+            "description": "Disparar un evento en el bus de eventos.",
+            "documentation": "Documentación de eventos",
+            "type": "Tipo de evento",
+            "data": "Datos del evento (YAML, opcional)",
+            "fire_event": "Lanzar evento",
+            "event_fired": "Evento {name} disparado",
+            "active_listeners": "Active listeners",
+            "count_listeners": " ({count} oyentes)",
+            "listen_to_events": "Escuchar eventos",
+            "listening_to": "Escuchando",
+            "subscribe_to": "Evento al que suscribirse",
+            "start_listening": "Empezar a escuchar",
+            "stop_listening": "Dejar de escuchar",
+            "alert_event_type": "El tipo de evento es un campo obligatorio.",
+            "notification_event_fired": "¡Evento {type} disparado con éxito!",
+            "available_events": "Eventos disponibles"
+          },
+          "services": {
+            "title": "Servicios",
+            "description": "La herramienta de desarrollo de servicios te permite llamar a cualquier servicio disponible en FLH HomeX.",
+            "call_service": "Llamar servicio",
+            "column_parameter": "Parámetro",
+            "column_description": "Descripción",
+            "column_example": "Ejemplo",
+            "fill_example_data": "Rellenar datos de ejemplo",
+            "yaml_mode": "Ir al modo YAML",
+            "ui_mode": "Ir al modo IU",
+            "yaml_parameters": "Parámetros solo disponibles en modo YAML",
+            "all_parameters": "Todos los parámetros disponibles",
+            "accepts_target": "Este servicio acepta un objetivo, por ejemplo: `entity_id: light.luz_dormitorio`",
+            "no_template_ui_support": "La interfaz de usuario no admite plantillas, pero puedes utilizar el editor YAML."
+          },
+          "states": {
+            "title": "Estados",
+            "description1": "Establece la representación del estado actual de una entidad dentro de FLH HomeX.",
+            "description2": "Si la entidad pertenece a un dispositivo, no habrá comunicación real con ese dispositivo.",
+            "entity": "Entidad",
+            "state": "Estado",
+            "attributes": "Atributos",
+            "state_attributes": "Atributos de estado (YAML, opcional)",
+            "set_state": "Establecer estado",
+            "current_entities": "Entidades actuales",
+            "filter_entities": "Filtrar entidades",
+            "filter_states": "Filtrar estados",
+            "filter_attributes": "Filtrar atributos",
+            "no_entities": "Sin entidades",
+            "more_info": "Más Información",
+            "alert_entity_field": "Entidad es un campo obligatorio",
+            "last_updated": "Última actualización",
+            "last_changed": "Último cambio",
+            "copy_id": "Copiar ID al portapapeles"
+          },
+          "templates": {
+            "title": "Plantillas",
+            "description": "Las plantillas se muestran utilizando el motor de plantillas Jinja2 con algunas extensiones específicas de FLH HomeX.",
+            "editor": "Editor de plantillas",
+            "reset": "Restablecer la plantilla de demostración",
+            "result_type": "Tipo de resultado",
+            "jinja_documentation": "Documentación de plantilla Jinja2",
+            "template_extensions": "Extensiones de plantilla de FLH HomeX",
+            "unknown_error_template": "Error desconocido al mostrar la plantilla",
+            "time": "Esta plantilla se actualiza al comienzo de cada minuto.",
+            "all_listeners": "Esta plantilla escucha todos los eventos de cambio de estado.",
+            "no_listeners": "Esta plantilla no escucha ningún evento y no se actualizará automáticamente.",
+            "listeners": "Esta plantilla escucha los siguientes eventos de cambio de estado:",
+            "entity": "Entidad",
+            "domain": "Dominio"
+          },
+          "statistics": {
+            "title": "Statistics",
+            "entity": "Entity",
+            "issue": "Issue",
+            "issues": {
+              "units_changed": "The unit of this entity changed from ''{metadata_unit}'' to ''{state_unit}''.",
+              "unsupported_unit": "The unit (''{state_unit}'') of this entity doesn't match a unit of device class ''{device_class}''."
+            },
+            "fix_issue": {
+              "units_changed": {
+                "title": "The unit of this entity changed",
+                "update": "Update the historic statistic values from ''{metadata_unit}'' to ''{state_unit}''",
+                "clear": "Delete all old statistic data for this entity",
+                "fix": "Fix issue"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

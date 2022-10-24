@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Verder",
+          "back": "Terug",
+          "done": "Laat me mijn energie dashboard zien!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Totaal energieverbruik",
+          "solar": "Zonne-energie",
+          "by_device": "Verbruik per apparaat"
+        }
+      }
+    }
+  }
+}

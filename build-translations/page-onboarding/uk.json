@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Чи готові Ви розбудити свій будинок, повернути свою конфіденційність і приєднатися до всесвітньої спільноти?",
+        "next": "Next",
+        "finish": "Finish",
+        "user": {
+          "intro": "Почнемо зі створення облікового запису користувача.",
+          "required_field": "Обов'язкове поле",
+          "data": {
+            "name": "Ім'я",
+            "username": "Ім'я користувача",
+            "password": "Пароль",
+            "password_confirm": "Підтвердити пароль"
+          },
+          "create_account": "Створити обліковий запис",
+          "error": {
+            "required_fields": "Заповніть усі необхідні поля",
+            "password_not_match": "Паролі не збігаються"
+          }
+        },
+        "core-config": {
+          "intro": "Привіт, {name}, Ласкаво просимо до FLH HomeX. Як би ви хотіли назвати свій дім?",
+          "intro_location": "Ми хотіли б знати, де ви живете. Це допоможе нам правильно відображати інформацію і дозволить вам налаштовувати автоматизації на основі даних про світанок і захід сонця. Ці дані ніколи не будуть передані за межі локальної мережі.",
+          "intro_location_detect": "Ми можемо допомогти вам заповнити цю інформацію, зробивши одноразовий запит до зовнішньої служби.",
+          "location_name": "Назва інсталяції FLH HomeX",
+          "location_name_default": "Головна",
+          "button_detect": "Виявити",
+          "finish": "Далі"
+        },
+        "integration": {
+          "intro": "Пристрої та служби представлені в FLH HomeX як інтеграції. Ви можете їх налаштувати зараз або зробити це пізніше в розділі налаштувань.",
+          "more_integrations": "Більше",
+          "finish": "Завершити"
+        },
+        "analytics": { "finish": "Next" },
+        "restore": {
+          "description": "Відновлення попереднього стану з образу файлової системи (backup)",
+          "in_progress": "Триває відновлення",
+          "show_log": "Показати повний журнал",
+          "hide_log": "Приховати повний журнал",
+          "full_backup": "Full backup",
+          "partial_backup": "Partial backup",
+          "type": "Backup type",
+          "select_type": "Select what to restore",
+          "folders": "Folders",
+          "addons": "Add-ons",
+          "password_protection": "Password protection",
+          "password": "Backup password",
+          "confirm_password": "Confirm backup password"
+        }
+      }
+    }
+  }
+}

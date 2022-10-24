@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Næste",
+          "back": "Tilbage",
+          "done": "Vis overblik over mit energiforbrug"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Samlet energiforbrug",
+          "solar": "Solceller",
+          "by_device": "Forbrug pr. enhed"
+        }
+      }
+    }
+  }
+}

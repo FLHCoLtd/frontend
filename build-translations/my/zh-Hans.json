@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "您的 FLH HomeX 不支持此重定向。请查阅{link}以获取受支持的重定向及其引入的版本。",
+        "component_not_loaded": "您的 FLH HomeX 不支持此重定向。需要使用 {integration} 集成才能使用它。",
+        "no_supervisor": "您的 FLH HomeX 不支持此重定向。它需要 FLH HomeX OS 或 FLH HomeX Supervised 安装方法。有关更多信息，请参阅 {docs_link} 。",
+        "documentation": "文档",
+        "faq_link": "我的 FLH HomeX 常见问题",
+        "error": "发生未知错误"
+      }
+    }
+  }
+}

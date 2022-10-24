@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "다음",
+          "back": "뒤로",
+          "done": "내 에너지 대시보드를 보여주세요!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "총 에너지 소비량",
+          "solar": "태양광",
+          "by_device": "장치별 소비량"
+        }
+      }
+    }
+  }
+}

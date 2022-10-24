@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Další",
+          "back": "Zpět",
+          "done": "Ukažte mi můj energetický panel!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Celková spotřeba energie",
+          "solar": "Solární",
+          "by_device": "Spotřeba podle zařízení"
+        }
+      }
+    }
+  }
+}

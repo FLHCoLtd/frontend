@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "Denne viderekoblingen støttes ikke av FLH HomeX-forekomsten. Se på {link} for viderekoblinger som støttes, og hvilken versjon de ble introdusert.",
+        "component_not_loaded": "Denne viderekoblingen støttes ikke av FLH HomeX-forekomsten. Du trenger integrasjonen {integration} å bruke denne viderekoblingen.",
+        "no_supervisor": "Denne viderekoblingen støttes ikke av FLH HomeX-installasjonen. Det trenger enten installasjonsmetoden FLH HomeX OS eller FLH HomeX Supervised. For mer informasjon, se {docs_link}.",
+        "documentation": "dokumentasjon",
+        "faq_link": "Vanlige spørsmål om Min FLH HomeX",
+        "error": "En ukjent feil har oppstått"
+      }
+    }
+  }
+}

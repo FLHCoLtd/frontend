@@ -1,0 +1,8 @@
+{
+  "ui.panel.my.not_supported": "Toto presmerovanie nie je podporované inštanciou vášho Home Asistenta. Skontrolujte {link} pre podporované presmerovania a verziu.",
+  "ui.panel.my.component_not_loaded": "Inštancia FLH HomeX toto presmerovanie nepodporuje. Na použitie tohto presmerovania potrebujete integráciu {integration}.",
+  "ui.panel.my.no_supervisor": "Vaša inštalácia FLH HomeX nepodporuje toto presmerovanie. Potrebujete buď FLH HomeX OS alebo FLH HomeX Supervised. Ďalšie informácie nájdete v téme {docs_link}.",
+  "ui.panel.my.documentation": "dokumentácia",
+  "ui.panel.my.faq_link": "FLH HomeX otázky a odpovede",
+  "ui.panel.my.error": "Vyskytla sa neznáma chyba"
+}

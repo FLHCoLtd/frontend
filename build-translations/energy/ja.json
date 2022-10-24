@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "次",
+          "back": "戻る",
+          "done": "私のエネルギーダッシュボードを表示"
+        },
+        "charts": {
+          "stat_house_energy_meter": "総エネルギー消費量",
+          "solar": "ソーラー",
+          "by_device": "デバイス別消費量"
+        }
+      }
+    }
+  }
+}

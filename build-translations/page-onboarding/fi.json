@@ -1,0 +1,56 @@
+{
+  "ui": {
+    "panel": {
+      "page-onboarding": {
+        "intro": "Oletko valmis herättämään kotisi eloon, palauttamaan yksityisyytesi ja liittymään maailmanlaajuiseen nikkarien joukkoon?",
+        "next": "Seuraava",
+        "finish": "Valmis",
+        "user": {
+          "intro": "Aloitetaan luomalla käyttäjätili.",
+          "required_field": "Edellytetään",
+          "data": {
+            "name": "Nimi",
+            "username": "Käyttäjätunnus",
+            "password": "Salasana",
+            "password_confirm": "Vahvista salasana"
+          },
+          "create_account": "Luo tili",
+          "error": {
+            "required_fields": "Täytä kaikki pakolliset kentät",
+            "password_not_match": "Salasanat eivät täsmää"
+          }
+        },
+        "core-config": {
+          "intro": "Hei {name}, tervetuloa FLH HomeX  -käyttäjäksi. Kuinka haluaisit nimetä uuden kotisi?",
+          "intro_location": "Haluaisimme tietää, missä asut. Nämä tiedot auttavat näyttämään tietoja ja perustamaan aurinkoon perustuvia automaatioita. Näitä tietoja ei koskaan jaeta oman verkkosi ulkopuolelle.",
+          "intro_location_detect": "Voimme auttaa sinua täyttämään nämä tiedot tekemällä kertaluonteisen pyynnön ulkoiselle palvelulle.",
+          "location_name": "FLH HomeX  -asennuksen nimi",
+          "location_name_default": "Koti",
+          "button_detect": "Havaitse",
+          "finish": "Seuraava"
+        },
+        "integration": {
+          "intro": "Laitteet ja palvelut on esitetty FLH HomeX issa integraatioina. Voit määrittää ne nyt tai tehdä sen myöhemmin asetus valikosta.",
+          "more_integrations": "Lisää",
+          "finish": "Valmis"
+        },
+        "analytics": { "finish": "Seuraava" },
+        "restore": {
+          "description": "Vaihtoehtoisesti voit palauttaa aiemmasta varmuuskopiosta.",
+          "in_progress": "Palautus käynnissä",
+          "show_log": "Näytä koko loki",
+          "hide_log": "Piilota koko loki",
+          "full_backup": "Full backup",
+          "partial_backup": "Partial backup",
+          "type": "Tyyppi",
+          "select_type": "Valitse palautettavat tiedot",
+          "folders": "Kansiot",
+          "addons": "Lisäosat",
+          "password_protection": "Salasanasuojaus",
+          "password": "Salasana",
+          "confirm_password": "Vahvista tilannekuvan salasana"
+        }
+      }
+    }
+  }
+}

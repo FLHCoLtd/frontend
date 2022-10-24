@@ -1,0 +1,8 @@
+{
+  "ui.panel.my.not_supported": "Toto přesměrování není vaší instancí FLH HomeX podporováno. Zkontrolujte {link} pro podporovaná přesměrování a verzi, ve které byla zavedena.",
+  "ui.panel.my.component_not_loaded": "Toto přesměrování není vaší instancí FLH HomeX podporováno. Potřebujete integraci \"{integration}\", aby šlo použít toto přesměrování.",
+  "ui.panel.my.no_supervisor": "Toto přesměrování není podporováno vaší instalací FLH HomeX. Potřebuje buď operační systém FLH HomeX, nebo metodu instalace FLH HomeX Supervised. Další informace naleznete na {docs_link}.",
+  "ui.panel.my.documentation": "dokumentace",
+  "ui.panel.my.faq_link": "Časté dotazy týkající se My FLH HomeX",
+  "ui.panel.my.error": "Nastala neznámá chyba"
+}

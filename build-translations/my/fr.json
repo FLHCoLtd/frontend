@@ -1,0 +1,14 @@
+{
+  "ui": {
+    "panel": {
+      "my": {
+        "not_supported": "Cette redirection n'est pas prise en charge par votre instance FLH HomeX. Vérifiez le {link} pour les redirections prises en charge et la version dans laquelle elles ont été introduites.",
+        "component_not_loaded": "Cette redirection n'est pas prise en charge par votre instance FLH HomeX. Vous avez besoin de l'intégration {integration} pour utiliser cette redirection.",
+        "no_supervisor": "Cette redirection n'est pas prise en charge par votre installation FLH HomeX. Il nécessite soit le système d'exploitation FLH HomeX, soit la méthode d'installation supervisée par FLH HomeX. Pour plus d'informations, consultez le {docs_link} .",
+        "documentation": "documentation",
+        "faq_link": "Ma FLH HomeX FAQ",
+        "error": "Une erreur inconnue est survenue"
+      }
+    }
+  }
+}

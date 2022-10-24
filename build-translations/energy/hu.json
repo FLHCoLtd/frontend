@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Következő",
+          "back": "Vissza",
+          "done": "Mutasd az energia irányítópultot!"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Teljes energiafogyasztás",
+          "solar": "Nap",
+          "by_device": "Eszköz szerinti fogyasztás"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "ui.panel.my.not_supported": "To przekierowanie nie jest obsługiwane przez Twoją instancję FLH HomeXa. Sprawdź {link} aby znaleźć obsługiwane przekierowania i wersję, w której zostały wprowadzone.",
+  "ui.panel.my.component_not_loaded": "To przekierowanie nie jest obsługiwane przez Twoją instancję FLH HomeXa. Aby skorzystać z tego przekierowania, potrzebujesz integracji {integration}.",
+  "ui.panel.my.no_supervisor": "To przekierowanie nie jest obsługiwane przez Twoją instalację FLH HomeX. Wymagany jest FLH HomeX OS lub FLH HomeX Supervised. Więcej informacji można znaleźć na {docs_link}.",
+  "ui.panel.my.documentation": "dokumentacja",
+  "ui.panel.my.faq_link": "Mój FLH HomeX - często zadawane pytania",
+  "ui.panel.my.error": "Wystąpił nieznany błąd"
+}

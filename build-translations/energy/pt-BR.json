@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "panel": {
+      "energy": {
+        "setup": {
+          "next": "Pr[o",
+          "back": "Voltar",
+          "done": "Mostre-me meu dashboard de energia"
+        },
+        "charts": {
+          "stat_house_energy_meter": "Consumo total de energia",
+          "solar": "Solar",
+          "by_device": "Consumo por dispositivo"
+        }
+      }
+    }
+  }
+}
