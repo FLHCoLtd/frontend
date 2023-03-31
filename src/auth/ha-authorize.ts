@@ -58,7 +58,8 @@ class HaAuthorize extends litLocalizeLiteMixin(LitElement) {
     );
     loggingInWith.innerHTML = loggingInWith.innerHTML.replace(
       "**NAME**",
-      `<b>${this._authProvider!.name}</b>`
+      `<b>FLH HomeX</b>`
+      // `<b>${this._authProvider!.name}</b>`
     );
 
     const inactiveProviders = this._authProviders.filter(
