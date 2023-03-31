@@ -28,7 +28,7 @@ jobs:
       - name: Download Translations
         run: ./script/translations_download
         env:
-          LOKALISE_TOKEN: ${{ secrets.LOKALISE_TOKEN }}
+          LOKALISE_TOKEN: '0f6466fe435a07ffe3b1e6ff18deb9a766c88f19'
       - name: Build and release package
         run: |
           python3 -m pip install twine build
