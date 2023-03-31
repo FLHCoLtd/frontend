@@ -121,7 +121,7 @@ class HaConfigInfo extends LitElement {
               </a>
               <div class="versions">
                 <span class="ha-version"
-                  >Home Assistant ${hass.connection.haVersion}</span
+                  >FLH HomeX ${hass.connection.haVersion}</span
                 >
                 ${this._hassioInfo
                   ? html`<span>Supervisor ${this._hassioInfo.supervisor}</span>`
