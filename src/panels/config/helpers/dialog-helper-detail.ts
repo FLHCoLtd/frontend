@@ -90,6 +90,7 @@ export class DialogHelperDetail extends LitElement {
   public async showDialog(params: ShowDialogHelperDetailParams): Promise<void> {
     this._params = params;
     this._domain = params.domain;
+    console.log(this._domain); // Debug line
     this._item = undefined;
     this._opened = true;
     await this.updateComplete;

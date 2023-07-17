@@ -40,11 +40,11 @@ import { domainToName } from "../../../data/integration";
 import "../../../layouts/hass-tabs-subpage-data-table";
 import { haStyle } from "../../../resources/styles";
 import { HomeAssistant, Route } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { integrationsUrl } from "../../../util/brands-url";
 import { configSections } from "../ha-panel-config";
 import "../integrations/ha-integration-overflow-menu";
 import { showAddIntegrationDialog } from "../integrations/show-add-integration-dialog";
-
+import { until } from 'lit-html/directives/until.js';
 interface DeviceRowData extends DeviceRegistryEntry {
   device?: DeviceRowData;
   area?: string;
@@ -279,11 +279,14 @@ export class HaConfigDeviceDashboard extends LitElement {
               ? html`<img
                   alt=""
                   referrerpolicy="no-referrer"
-                  src=${brandsUrl({
-                    domain: device.domains[0],
-                    type: "icon",
-                    darkOptimized: this.hass.themes?.darkMode,
-                  })}
+                  src=${until(
+                    integrationsUrl({
+                      domain: device.domains[0],
+                      type: "icon",
+                      darkOptimized: this.hass.themes?.darkMode,
+                    }),
+                    html`<span>Loading...</span>` // 这是一个备选的模板，在等待 Promise 解析的过程中显示
+                  )}
                 />`
               : "",
         },

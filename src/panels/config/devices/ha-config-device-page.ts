@@ -71,7 +71,7 @@ import "../../../layouts/hass-error-screen";
 import "../../../layouts/hass-subpage";
 import { haStyle } from "../../../resources/styles";
 import type { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { integrationsUrl } from "../../../util/brands-url";
 import { fileDownload } from "../../../util/file_download";
 import "../../logbook/ha-logbook";
 import "../ha-config-section";
@@ -83,7 +83,7 @@ import {
   loadDeviceRegistryDetailDialog,
   showDeviceRegistryDetailDialog,
 } from "./device-registry-detail/show-dialog-device-registry-detail";
-
+import { until } from 'lit-html/directives/until.js';
 export interface EntityRegistryStateEntry extends EntityRegistryEntry {
   stateName?: string | null;
 }
@@ -310,11 +310,12 @@ export class HaConfigDevicePage extends LitElement {
             <img
               slot="graphic"
               alt=${domainToName(this.hass.localize, integration.domain)}
-              src=${brandsUrl({
-                domain: integration.domain,
-                type: "icon",
-                darkOptimized: this.hass.themes?.darkMode,
-              })}
+              src=${until(
+                integrationsUrl({
+                  domain: integration.domain,
+                  type: "icon",
+                  darkOptimized: this.hass.themes?.darkMode,
+              }))}
               referrerpolicy="no-referrer"
             />
 
@@ -699,11 +700,12 @@ export class HaConfigDevicePage extends LitElement {
                               this.hass.localize,
                               integrations[0].domain
                             )}
-                            src=${brandsUrl({
-                              domain: integrations[0].domain,
-                              type: "logo",
-                              darkOptimized: this.hass.themes?.darkMode,
-                            })}
+                            src=${until(
+                              integrationsUrl({
+                                domain: integrations[0].domain,
+                                type: "logo",
+                                darkOptimized: this.hass.themes?.darkMode,
+                            }))}
                             referrerpolicy="no-referrer"
                             @load=${this._onImageLoad}
                             @error=${this._onImageError}

@@ -7,7 +7,7 @@ import { computeRTL } from "../../../common/util/compute_rtl";
 import "../../../components/ha-svg-icon";
 import { domainToName, IntegrationManifest } from "../../../data/integration";
 import { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { integrationsUrl } from "../../../util/brands-url";
 
 @customElement("ha-integration-header")
 export class HaIntegrationHeader extends LitElement {
@@ -24,7 +24,16 @@ export class HaIntegrationHeader extends LitElement {
   @property({ attribute: false }) public manifest?: IntegrationManifest;
 
   @property({ attribute: false }) public debugLoggingEnabled?: boolean;
-
+  @property() public imageSrc?: string;
+  async updated(changedProps) {
+    if (changedProps.has('domain')) {
+      this.imageSrc = await integrationsUrl({
+        domain: this.domain,
+        type: "icon",
+        darkOptimized: this.hass.themes?.darkMode,
+      });
+    }
+  }
   protected render(): TemplateResult {
     let primary: string;
     let secondary: string | undefined;
@@ -69,17 +78,13 @@ export class HaIntegrationHeader extends LitElement {
       ${!this.banner ? "" : html`<div class="banner">${this.banner}</div>`}
       <slot name="above-header"></slot>
       <div class="header">
-        <img
-          alt=""
-          src=${brandsUrl({
-            domain: this.domain,
-            type: "icon",
-            darkOptimized: this.hass.themes?.darkMode,
-          })}
-          referrerpolicy="no-referrer"
-          @error=${this._onImageError}
-          @load=${this._onImageLoad}
-        />
+      <img
+        alt=""
+        src=${this.imageSrc}
+        referrerpolicy="no-referrer"
+        @error=${this._onImageError}
+        @load=${this._onImageLoad}
+      />
         ${icons.length === 0
           ? ""
           : html`

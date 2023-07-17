@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Assistant</title>
+    <title>FLH HomeX</title>
     <%= renderTemplate("_header.html.template") %>
     <%= renderTemplate("_style_base.html.template") %>
     <style>
@@ -34,7 +34,7 @@
     <div class="content">
       <div class="header">
         <img src="/static/icons/favicon-192x192.png" height="52" alt="" />
-        Home Assistant
+        FLH HomeX
       </div>
       <ha-authorize><p>Initializing</p></ha-authorize>
     </div>
