@@ -103,7 +103,7 @@ import "../../../layouts/hass-subpage";
 import { SubscribeMixin } from "../../../mixins/subscribe-mixin";
 import { haStyle } from "../../../resources/styles";
 import { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { brandsUrl, integrationsUrl } from "../../../util/brands-url";
 import { documentationUrl } from "../../../util/documentation-url";
 import { fileDownload } from "../../../util/file_download";
 import { DataEntryFlowProgressExtended } from "./ha-config-integrations";
@@ -139,6 +139,21 @@ class HaConfigIntegrationPage extends SubscribeMixin(LitElement) {
   @state() private _searchParms = new URLSearchParams(
     window.location.hash.substring(1)
   );
+  @property() public imageSrc?: string;
+  async updateImageSrc() {
+    const imageUrl = await integrationsUrl({
+      domain: this.domain,
+      type: "logo",
+      darkOptimized: this.hass.themes?.darkMode,
+    });
+    this.imageSrc = imageUrl;
+    this.requestUpdate();  // Assuming this code is inside a LitElement, forces a re-render
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.updateImageSrc();
+  }
 
   private _configPanel = memoizeOne(
     (domain: string, panels: HomeAssistant["panels"]): string | undefined =>
@@ -261,11 +276,7 @@ class HaConfigIntegrationPage extends SubscribeMixin(LitElement) {
                 <div class="logo-container">
                   <img
                     alt=${domainToName(this.hass.localize, this.domain)}
-                    src=${brandsUrl({
-                      domain: this.domain,
-                      type: "logo",
-                      darkOptimized: this.hass.themes?.darkMode,
-                    })}
+                    src=${this.imageSrc}
                     crossorigin="anonymous"
                     referrerpolicy="no-referrer"
                     @load=${this._onImageLoad}

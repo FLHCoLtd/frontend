@@ -20,10 +20,10 @@ import { Brand, Integration } from "../../../data/integrations";
 import { showConfigFlowDialog } from "../../../dialogs/config-flow/show-dialog-config-flow";
 import { haStyle } from "../../../resources/styles";
 import { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { brandsUrl, integrationsUrl } from "../../../util/brands-url";
 import "./ha-integration-list-item";
 import { showYamlIntegrationDialog } from "./show-add-integration-dialog";
-
+import { until } from 'lit-html/directives/until.js';
 const standardToDomain = { zigbee: "zha", zwave: "zwave_js" } as const;
 
 @customElement("ha-domain-integrations")
@@ -55,12 +55,13 @@ class HaDomainIntegrations extends LitElement {
                     alt=""
                     slot="graphic"
                     loading="lazy"
-                    src=${brandsUrl({
-                      domain: flow.handler,
-                      type: "icon",
+                    src=${until(
+                      integrationsUrl({
+                        domain: flow.handler,
+                        type: "icon",
                       useFallback: true,
                       darkOptimized: this.hass.themes?.darkMode,
-                    })}
+                    }))}
                     crossorigin="anonymous"
                     referrerpolicy="no-referrer"
                   />
@@ -101,12 +102,13 @@ class HaDomainIntegrations extends LitElement {
                   slot="graphic"
                   loading="lazy"
                   alt=""
-                  src=${brandsUrl({
-                    domain,
-                    type: "icon",
+                  src=${until(
+                    integrationsUrl({
+                      domain,
+                      type: "icon",
                     useFallback: true,
                     darkOptimized: this.hass.themes?.darkMode,
-                  })}
+                  }))}
                   crossorigin="anonymous"
                   referrerpolicy="no-referrer"
                 />
@@ -164,12 +166,13 @@ class HaDomainIntegrations extends LitElement {
               slot="graphic"
               loading="lazy"
               alt=""
-              src=${brandsUrl({
-                domain: this.domain,
-                type: "icon",
+              src=${until(
+                integrationsUrl({
+                  domain: this.domain,
+                  type: "icon",
                 useFallback: true,
                 darkOptimized: this.hass.themes?.darkMode,
-              })}
+              }))}
               crossorigin="anonymous"
               referrerpolicy="no-referrer"
             />

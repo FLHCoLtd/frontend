@@ -79,7 +79,7 @@ import "../../../layouts/hass-tabs-subpage-data-table";
 import { SubscribeMixin } from "../../../mixins/subscribe-mixin";
 import { haStyle } from "../../../resources/styles";
 import { HomeAssistant, Route } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { brandsUrl, integrationsUrl } from "../../../util/brands-url";
 import { showAreaRegistryDetailDialog } from "../areas/show-dialog-area-registry-detail";
 import { configSections } from "../ha-panel-config";
 import "../integrations/ha-integration-overflow-menu";
@@ -91,6 +91,7 @@ import {
   deserializeFilters,
   DataTableFilters,
 } from "../../../data/data_table_filters";
+import { until } from 'lit-html/directives/until.js';
 
 interface DeviceRowData extends DeviceRegistryEntry {
   device?: DeviceRowData;
@@ -444,11 +445,14 @@ export class HaConfigDeviceDashboard extends SubscribeMixin(LitElement) {
                 alt=""
                 crossorigin="anonymous"
                 referrerpolicy="no-referrer"
-                src=${brandsUrl({
+                src=${until(
+                  integrationsUrl({
                   domain: device.domains[0],
                   type: "icon",
                   darkOptimized: this.hass.themes?.darkMode,
-                })}
+                }),
+                html`<div>Loading...</div>`
+              )}
               />`
             : "",
       },

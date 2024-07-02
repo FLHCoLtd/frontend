@@ -4,16 +4,8 @@ import { customElement } from "lit/decorators";
 @customElement("ha-logo-svg")
 export class HaLogoSvg extends LitElement {
   protected render(): TemplateResult {
-    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
-      <path
-        fill="#18BCF2"
-        d="M240 224.762a15 15 0 0 1-15 15H15a15 15 0 0 1-15-15v-90c0-8.25 4.77-19.769 10.61-25.609l98.78-98.7805c5.83-5.83 15.38-5.83 21.21 0l98.79 98.7895c5.83 5.83 10.61 17.36 10.61 25.61v90-.01Z"
-      />
-      <path
-        fill="#F2F4F9"
-        d="m107.27 239.762-40.63-40.63c-2.09.72-4.32 1.13-6.64 1.13-11.3 0-20.5-9.2-20.5-20.5s9.2-20.5 20.5-20.5 20.5 9.2 20.5 20.5c0 2.33-.41 4.56-1.13 6.65l31.63 31.63v-115.88c-6.8-3.3395-11.5-10.3195-11.5-18.3895 0-11.3 9.2-20.5 20.5-20.5s20.5 9.2 20.5 20.5c0 8.07-4.7 15.05-11.5 18.3895v81.27l31.46-31.46c-.62-1.96-.96-4.04-.96-6.2 0-11.3 9.2-20.5 20.5-20.5s20.5 9.2 20.5 20.5-9.2 20.5-20.5 20.5c-2.5 0-4.88-.47-7.09-1.29L129 208.892v30.88z"
-      />
-    </svg>`;
+    return html`<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.12 33.12"><defs><style>.cls-1{fill:#716a76;}.cls-2{fill:#67cfee;}</style></defs><title>FLH_logo</title><polygon class="cls-1" points="0 16.56 0 24.84 8.28 24.84 8.28 33.12 16.56 33.12 16.56 24.84 16.56 16.56 8.28 16.56 0 16.56"/><polygon class="cls-2" points="8.28 0 8.28 8.28 16.56 8.28 16.56 16.56 24.84 16.56 24.84 8.28 24.84 0 16.56 0 8.28 0"/><rect class="cls-1" x="24.84" y="8.28" width="8.28" height="16.56"/></svg>
+    `;
   }
 
   static get styles(): CSSResultGroup {

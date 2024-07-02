@@ -74,7 +74,7 @@ import "../../../layouts/hass-error-screen";
 import "../../../layouts/hass-subpage";
 import { haStyle } from "../../../resources/styles";
 import type { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { brandsUrl, integrationsUrl } from "../../../util/brands-url";
 import { fileDownload } from "../../../util/file_download";
 import "../../logbook/ha-logbook";
 import "../ha-config-section";
@@ -86,6 +86,7 @@ import {
   loadDeviceRegistryDetailDialog,
   showDeviceRegistryDetailDialog,
 } from "./device-registry-detail/show-dialog-device-registry-detail";
+import { until } from 'lit-html/directives/until.js';
 
 export interface EntityRegistryStateEntry extends EntityRegistryEntry {
   stateName?: string | null;
@@ -325,11 +326,12 @@ export class HaConfigDevicePage extends LitElement {
             <img
               slot="graphic"
               alt=${domainToName(this.hass.localize, integration.domain)}
-              src=${brandsUrl({
-                domain: integration.domain,
-                type: "icon",
+              src=${until(
+                integrationsUrl({
+                  domain: integration.domain,
+                  type: "icon",
                 darkOptimized: this.hass.themes?.darkMode,
-              })}
+              }))}
               crossorigin="anonymous"
               referrerpolicy="no-referrer"
             />

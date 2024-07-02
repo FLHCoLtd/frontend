@@ -9,7 +9,7 @@ import { customElement, property } from "lit/decorators";
 import { classMap } from "lit/directives/class-map";
 import { domainToName } from "../../../data/integration";
 import { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { brandsUrl, integrationsUrl } from "../../../util/brands-url";
 import { IntegrationListItem } from "./dialog-add-integration";
 
 @customElement("ha-integration-list-item")
@@ -23,6 +23,26 @@ export class HaIntegrationListItem extends ListItemBase {
   @property({ type: Boolean }) hasMeta = true;
 
   @property({ type: Boolean }) brand = false;
+  @property({ attribute: false }) private imageUrl?: string;
+  async updated(changedProperties) {
+  // Call super method first
+  super.updated(changedProperties);
+
+  // Check if the 'integration' property has changed. If so, fetch the new image URL.
+  if (changedProperties.has('integration')) {
+    if (this.integration) {
+      this.imageUrl = await integrationsUrl({
+        domain: this.integration.domain,
+        type: "icon",
+        useFallback: true,
+        darkOptimized: this.hass.themes?.darkMode,
+        brand: this.brand,
+      });
+    } else {
+      this.imageUrl = undefined;
+    }
+  }
+}
 
   // @ts-expect-error
   protected override renderSingleLine() {
@@ -51,13 +71,7 @@ export class HaIntegrationListItem extends ListItemBase {
       <img
         alt=""
         loading="lazy"
-        src=${brandsUrl({
-          domain: this.integration.domain,
-          type: "icon",
-          useFallback: true,
-          darkOptimized: this.hass.themes?.darkMode,
-          brand: this.brand,
-        })}
+        .src=${this.imageUrl}
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       />

@@ -12,6 +12,23 @@ export interface HardwareBrandsOptions {
   manufacturer: string;
   darkOptimized?: boolean;
 }
+export const integrationsUrl = async (options: BrandsOptions): Promise<string> => {
+  const response = await fetch('https://raw.githubusercontent.com/FLHCoLtd/hass-icon/main/domain.txt');
+  const text = await response.text();
+  const matchedBranches = text.split(',');
+
+  if (options.domain && matchedBranches.includes(options.domain)) {
+    return `https://raw.githubusercontent.com/FLHCoLtd/hass-icon/main/components-icon/${
+      options.domain
+    }/${options.type}.png`;
+  } else {
+    return `https://brands.home-assistant.io/${options.brand ? "brands/" : ""}${
+      options.useFallback ? "_/" : ""
+    }${options.domain}/${options.darkOptimized ? "dark_" : ""}${
+      options.type
+    }.png`;
+  }
+};
 
 export const brandsUrl = (options: BrandsOptions): string =>
   `https://brands.home-assistant.io/${options.brand ? "brands/" : ""}${
