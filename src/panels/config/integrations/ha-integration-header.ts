@@ -5,7 +5,7 @@ import "../../../components/ha-icon-next";
 import "../../../components/ha-svg-icon";
 import { IntegrationManifest, domainToName } from "../../../data/integration";
 import { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { intergationsUrl } from "../../../util/brands-url";
 
 @customElement("ha-integration-header")
 export class HaIntegrationHeader extends LitElement {
@@ -20,6 +20,16 @@ export class HaIntegrationHeader extends LitElement {
   @property() public domain!: string;
 
   @property({ attribute: false }) public manifest?: IntegrationManifest;
+  @property() public imageSrc?: string;
+  async updated(changedProps) {
+    if (changedProps.has('domain')) {
+      this.imageSrc = await intergationsUrl({
+        domain: this.domain,
+        type: "icon",
+        darkOptimized: this.hass.themes?.darkMode,
+      });
+    }
+  }
 
   protected render(): TemplateResult {
     const domainName =
@@ -30,12 +40,7 @@ export class HaIntegrationHeader extends LitElement {
       <div class="header">
         <img
           alt=""
-          src=${brandsUrl({
-            domain: this.domain,
-            type: "icon",
-            darkOptimized: this.hass.themes?.darkMode,
-          })}
-          crossorigin="anonymous"
+          src=${this.imageSrc}
           referrerpolicy="no-referrer"
           @error=${this._onImageError}
           @load=${this._onImageLoad}

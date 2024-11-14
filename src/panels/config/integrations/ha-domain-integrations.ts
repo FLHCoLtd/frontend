@@ -3,6 +3,7 @@ import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators";
 import { isComponentLoaded } from "../../../common/config/is_component_loaded";
 import { fireEvent } from "../../../common/dom/fire_event";
+import { until } from 'lit-html/directives/until.js';
 import {
   protocolIntegrationPicked,
   PROTOCOL_INTEGRATIONS,
@@ -20,7 +21,7 @@ import { Brand, Integration } from "../../../data/integrations";
 import { showConfigFlowDialog } from "../../../dialogs/config-flow/show-dialog-config-flow";
 import { haStyle } from "../../../resources/styles";
 import { HomeAssistant } from "../../../types";
-import { brandsUrl } from "../../../util/brands-url";
+import { brandsUrl, intergationsUrl } from "../../../util/brands-url";
 import "./ha-integration-list-item";
 import { showYamlIntegrationDialog } from "./show-add-integration-dialog";
 
@@ -55,12 +56,15 @@ class HaDomainIntegrations extends LitElement {
                     alt=""
                     slot="graphic"
                     loading="lazy"
-                    src=${brandsUrl({
-                      domain: flow.handler,
-                      type: "icon",
-                      useFallback: true,
-                      darkOptimized: this.hass.themes?.darkMode,
-                    })}
+                    src=${until(
+                      intergationsUrl({
+                        domain: flow.handler,
+                        type: "icon",
+                        useFallback: true,
+                        darkOptimized: this.hass.themes?.darkMode,
+                      }),
+                      html`<span>Loading...</span>`
+                    )}
                     crossorigin="anonymous"
                     referrerpolicy="no-referrer"
                   />
@@ -101,12 +105,15 @@ class HaDomainIntegrations extends LitElement {
                   slot="graphic"
                   loading="lazy"
                   alt=""
-                  src=${brandsUrl({
-                    domain,
+                  src=${until(
+                    intergationsUrl({
+                      domain,
                     type: "icon",
                     useFallback: true,
-                    darkOptimized: this.hass.themes?.darkMode,
-                  })}
+                      darkOptimized: this.hass.themes?.darkMode,
+                    }),
+                    html`<span>Loading...</span>`
+                  )}
                   crossorigin="anonymous"
                   referrerpolicy="no-referrer"
                 />
@@ -164,12 +171,15 @@ class HaDomainIntegrations extends LitElement {
               slot="graphic"
               loading="lazy"
               alt=""
-              src=${brandsUrl({
-                domain: this.domain,
-                type: "icon",
-                useFallback: true,
-                darkOptimized: this.hass.themes?.darkMode,
-              })}
+              src=${until(
+                intergationsUrl({
+                  domain: this.domain,
+                  type: "icon",
+                  useFallback: true,
+                  darkOptimized: this.hass.themes?.darkMode,
+                }),
+                html`<span>Loading...</span>`
+              )}
               crossorigin="anonymous"
               referrerpolicy="no-referrer"
             />
